@@ -83,7 +83,7 @@ The languages table has the following design
 ```
 
 ***Design of the language codes array:***
-'''
+```
 {
     "639-1":"ISO 639-1 code",
     "639-2-T":"ISO 639-2/T code",
