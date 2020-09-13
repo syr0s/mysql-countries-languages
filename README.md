@@ -91,3 +91,21 @@ The languages table has the following design
     "639-3":"ISO 639-3 code"
 }
 ```
+
+### Table: `continents`
+The continents table has the following design
+| Column | Type | Extras | Description |
+|  --------------  | -------------- | -------------- | -------------- |
+| continent_id | SMALLINT | NN, UQ, UN, PK | Primary key of the table. Didn't use auto increment to verify integrity |
+| continent_name | JSON | NN | the language name in different languages |
+| residents | SMALLINT | UN, NN | Residents on these continent |
+| area | SMALLINT | UN, NN | area in square kilometers |
+
+***Design of the default json array 
+(if not defined otherwise below):***
+```
+{
+   "ISO 639-1 code":"name",
+   ...
+}
+```
