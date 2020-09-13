@@ -14,7 +14,7 @@ The following languages are included:
 ## Project description
 The project contains the following related tables:
 - `countries`,
-- `continents`
+- `continents`,
 - `states`,
 - and `languages`
 
