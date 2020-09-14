@@ -402,3 +402,201 @@ INSERT IGNORE INTO languages (
     }',
     23000000
 ),
+(
+    15,
+    '{
+        "en":"Bambara",
+        "es":"Bambara",
+        "pt":"Bambara",
+        "de":"Bambara",
+        "ru":"Бамбара",
+        "fr":"Bambara"
+    }',
+    '{
+        "639-1":"bm",
+        "639-2-T":"bam",
+        "639-2-B":"bam",
+        "639-3":"bam"
+    }',
+    4100000
+),
+(
+    16,
+    '{
+        "en":"Bashkir",
+        "es":"Bashkir",
+        "pt":"Bashkir",
+        "de":"Baschkirisch",
+        "ru":"Башкирский",
+        "fr":"Bachkir"
+    }',
+    '{
+        "639-1":"ba",
+        "639-2-T":"bak",
+        "639-2-B":"bak",
+        "639-3":"bak"
+    }',
+    1200000
+),
+(
+    17,
+    '{
+        "en":"Basque",
+        "es":"Vasco",
+        "pt":"Basco",
+        "de":"baskisch",
+        "ru":"Баскский",
+        "fr":"basque"
+    }',
+    '{
+        "639-1":"eu",
+        "639-2-T":"eus",
+        "639-2-B":"baq",
+        "639-3":"eus"
+    }',
+    1185500
+),
+(
+    18,
+    '{
+        "en":"Belarusian",
+        "es":"Bielorruso",
+        "pt":"Bielorusso",
+        "de":"Belarussisch",
+        "ru":"Белорусский",
+        "fr":"Biélorusse"
+    }',
+    '{
+        "639-1":"be",
+        "639-2-T":"bel",
+        "639-2-B":"bel",
+        "639-3":"bel"
+    }',
+    5100000
+),
+(
+    19,
+    '{
+        "en":"Bengali",
+        "es":"bengalí",
+        "pt":"bengali",
+        "de":"Bengali",
+        "ru":"Бенгальский",
+        "fr":"bengali"
+    }',
+    '{
+        "639-1":"bn",
+        "639-2-T":"ben",
+        "639-2-B":"ben",
+        "639-3":"be"
+    }',
+    230000000
+),
+(
+    20,
+    '{
+        "en":"Bihari languages",
+        "es":"Idiomas bihari",
+        "pt":"Línguas bihari",
+        "de":"Bihari-Sprachen",
+        "ru":"Языки бихари",
+        "fr":"Langues bihari"
+    }',
+    '{
+        "639-1":"bh",
+        "639-2-T":"bih",
+        "639-2-B":"bih",
+        "639-3":null
+    }',
+    null
+),
+(
+    21,
+    '{
+        "en":"Bislama",
+        "es":"Bislama"
+        "pt":"Bislama",
+        "de":"Bislama",
+        "ru":"Бислама",
+        "fr":"Bislama"
+    }',
+    '{
+        "639-1":"bi",
+        "639-2-T":"bis",
+        "639-2-B":"bis",
+        "639-3":"bis"
+    }',
+    200000
+),
+(
+    22,
+    '{
+        "en":"Bosnian",
+        "es":"Bosnio",
+        "pt":"Bósnio",
+        "de":"bosnisch",
+        "ru":"Боснийский",
+        "fr":"Bosniaque"
+    }',
+    '{
+        "639-1":"bs",
+        "639-2-T":"bos",
+        "639-2-B":"bos",
+        "639-3":"bos"
+    }',
+    3000000
+),
+(
+    23,
+    '{
+        "en":"Breton",
+        "es":"Bretón",
+        "pt":"Bretão",
+        "de":"Bretonisch",
+        "ru":"Бретонский",
+        "fr":"Breton"
+    }',
+    '{
+        "639-1":"br",
+        "639-2-T":"bre",
+        "639-2-B":"bre",
+        "639-3":"bre"
+    }',
+    226000
+),
+(
+    24,
+    '{
+        "en":"Bulgarian",
+        "es":"Búlgaro",
+        "pt":"Búlgaro",
+        "de":"Bulgarisch",
+        "ru":"болгарский",
+        "fr":"bulgare"
+    }',
+    '{
+        "639-1":"bg",
+        "639-2-T":"bul",
+        "639-2-B":"bul",
+        "639-3":"bul"
+    }',
+    9000000
+),
+(
+    25,
+    '{
+        "en":"Burmese",
+        "es":"Birmano",
+        "pt":"Birmanês",
+        "de":"birmanisch",
+        "ru":"Бирманский"
+        "fr":"Birman"
+    }',
+    '{
+        "639-1":"my",
+        "639-2-T":"mya",
+        "639-2-B":"bur",
+        "639-3":"mya"
+    }',
+    33000000
+),
