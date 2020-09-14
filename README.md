@@ -35,7 +35,7 @@ The countries table has the following design
 | latitude | FLOAT | NN | The latitude of the country |
 | longitude | FLOAT | NN | The longitude of the country |
 | residents | INT | UN | The residents of the country (can be null, if no data is available) |
-| area | INT | NN | Area of the country in square kilometers |
+| area | INT | NN, UN | Area of the country in square kilometers |
 
 ***Design of the default json array 
 (if not defined otherwise below):***
