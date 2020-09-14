@@ -26,7 +26,7 @@
 
 /* table creation */
 /* create the languages table */
-CREATE TABLE IF NOT EXISTS languages(
+CREATE TABLE IF NOT EXISTS languages (
     language_id SMALLINT NOT NULL UNIQUE UNSIGNED COMMENT 'Primary key of the table. No auto increment, to verify the integrity',
     language_name LONGTEXT NOT NULL COMMENT 'json array: { "ISO 639-1 code":"language name" }',
     language_codes LONGTEXT NOT NULL COMMENT 'json array, with keys: 639-1, 639-2-T, 639-2-B, 639-3',
@@ -599,4 +599,201 @@ INSERT IGNORE INTO languages (
         "639-3":"mya"
     }',
     33000000
+),
+(
+    26,
+    '{
+        "en":"Catalan",
+        "es":"Catalán",
+        "pt":"Catalão",
+        "de":"katalanisch",
+        "ru":"Каталонский",
+        "fr":"Catalan"
+    }',
+    '{
+        "639-1":"ca",
+        "639-2-T":"cat",
+        "639-2-B":"cat",
+        "639-3":"cat"
+    }',
+    4100000
+),
+(
+    27,
+    '{
+        "en":"Chamorro",
+        "es":"Chamorro",
+        "pt":"Chamorro",
+        "de":"Chamorro",
+        "ru":"Чаморро",
+        "fr":"Chamorro"
+    }',
+    '{
+        "639-1":"ch",
+        "639-2-T":"cha",
+        "639-2-B":"cha",
+        "639-3":"cha"
+    }',
+    58000
+),
+(
+    28,
+    '{
+        "en":"Chechen",
+        "es":"Checheno",
+        "pt":"Checheno",
+        "de":"Tschetschenisch",
+        "ru":"Чеченский",
+        "fr":"Tchétchène"
+    }',
+    '{
+        "639-1":"ce",
+        "639-2-T":"che",
+        "639-2-B":"che",
+        "639-3":"che"
+    }',
+    1400000
+),
+(
+    29,
+    '{
+        "en":"Chichewa",
+        "es":"Chichewa",
+        "pt":"Chichewa",
+        "de":"Chichewa",
+        "ru":"Чичева",
+        "fr":"Chichewa"
+    }',
+    '{
+        "639-1":"ny",
+        "639-2-T":"nya",
+        "639-2-B":"nya",
+        "639-3":"nya"
+    }',
+    12000000
+),
+(
+    30,
+    '{
+        "en":"Chinese",
+        "es":"Chino",
+        "pt":"Chinês",
+        "de":"Chinesisch",
+        "ru":"китайский язык",
+        "fr":"Chinois"
+    }',
+    '{
+        "639-1":"zh",
+        "639-2-T":"zho",
+        "639-2-B":"chi",
+        "639-3":"zho + 16"
+    }',
+    1200000000
+),
+(
+    31,
+    '{
+        "en":"Chuvash",
+        "es":"Chuvash",
+        "pt":"Chuvash",
+        "de":"Tschuwaschisch",
+        "ru":"Чувашский",
+        "fr":"Chuvash"
+    }',
+    '{
+        "639-1":"cv",
+        "639-2-T":"chv",
+        "639-2-B":"chv",
+        "639-3":"chv"
+    }',
+    1042989
+),
+(
+    32,
+    '{
+        "en":"Cornish",
+        "es":"de Cornualles",
+        "pt":"Cornish",
+        "de":"kornisch",
+        "ru":"Корнуолл",
+        "fr":"cornouaillais"
+    }',
+    '{
+        "639-1":"kw",
+        "639-2-T":"cor",
+        "639-2-B":"cor",
+        "639-3":"cor"
+    }',
+    500
+),
+(
+    33,
+    '{
+        "en":"Corsican",
+        "es":"corso",
+        "pt":"Corso",
+        "de":"Korsisch",
+        "ru":"Корсиканский",
+        "fr":"Corse"
+    }',
+    '{
+        "639-1":"co",
+        "639-2-T":"cos",
+        "639-2-B":"cos",
+        "639-3":"cos"
+    }',
+    125000
+),
+(
+    34,
+    '{
+        "en":"Cree",
+        "es":"Cree",
+        "pt":"Cree",
+        "de":"Cree",
+        "ru":"Кри",
+        "fr":"Cri"
+    }',
+    '{
+        "639-1":"cr",
+        "639-2-T":"cre",
+        "639-2-B":"cre",
+        "639-3":"cre + 6"
+    }',
+    96260
+),
+(
+    35,
+    '{
+        "en":"Croatian",
+        "es":"croata",
+        "pt":"croata",
+        "de":"kroatisch",
+        "ru":"хорватский",
+        "fr":"croate"
+    }',
+    '{
+        "639-1":"hr",
+        "639-2-T":"hrv",
+        "639-2-B":"hrv",
+        "639-3":"hrv"
+    }',
+    5600000
+),
+(
+    36,
+    '{
+        "en":"Czech",
+        "es":"Checo",
+        "pt":"Tcheco",
+        "de":"Tschechisch",
+        "ru":"Чешский",
+        "fr":"tchèque"
+    }',
+    '{
+        "639-1":"cs",
+        "639-2-T":"ces",
+        "639-2-B":"cze",
+        "639-3":"ces"
+    }',
 ),
