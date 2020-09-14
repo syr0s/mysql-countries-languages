@@ -73,6 +73,7 @@ The languages table has the following design
 | language_id | SMALLINT | NN, UQ, UN, PK | Primary key of the table. Didn't use auto increment to verify integrity |
 | language_name | JSON | NN | the language name in different languages |
 | language_codes | JSON | NN | The different language codes |
+| speakers | INT | UN | worldwide speakers of the language |
 
 ***Design of the default json array 
 (if not defined otherwise below):***
