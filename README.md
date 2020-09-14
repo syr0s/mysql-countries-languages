@@ -10,6 +10,7 @@ The following languages are included:
 - Portuguese
 - German
 - Russian
+- French
 
 ## Project description
 The project contains the following related tables:
@@ -33,8 +34,8 @@ The countries table has the following design
 | currency | VARCHAR(3) | NN | Currency in ISO 4217 format |
 | latitude | FLOAT | NN | The latitude of the country |
 | longitude | FLOAT | NN | The longitude of the country |
-| residents | SMALLINT | UN | The residents of the country (can be null, if no data is available) |
-| area | SMALLINT | NN | Area of the country in square kilometers |
+| residents | INT | UN | The residents of the country (can be null, if no data is available) |
+| area | INT | NN | Area of the country in square kilometers |
 
 ***Design of the default json array 
 (if not defined otherwise below):***
@@ -98,8 +99,8 @@ The continents table has the following design
 |  --------------  | -------------- | -------------- | -------------- |
 | continent_id | SMALLINT | NN, UQ, UN, PK | Primary key of the table. Didn't use auto increment to verify integrity |
 | continent_name | JSON | NN | the language name in different languages |
-| residents | SMALLINT | UN, NN | Residents on this continent |
-| area | SMALLINT | UN, NN | area in square kilometers |
+| residents | INT | UN, NN | Residents on this continent |
+| area | INT | UN, NN | area in square kilometers |
 
 ***Design of the default json array 
 (if not defined otherwise below):***
@@ -116,8 +117,8 @@ The states table has the following design
 |  --------------  | -------------- | -------------- | -------------- |
 | state_id | SMALLINT | NN, UQ, UN, PK | Primary key of the table. Didn't use auto increment to verify integrity |
 | state_name | JSON | NN | the language name in different languages |
-| residents | SMALLINT | UN | Residents in this state |
-| area | SMALLINT | UN | area in square kilometers |
+| residents | INT | UN | Residents in this state |
+| area | INT | UN | area in square kilometers |
 
 ***Design of the default json array 
 (if not defined otherwise below):***
