@@ -12,6 +12,12 @@ The following languages are included:
 - Russian
 - French
 
+## Settings on the host
+Please make sure that the `locales` on your host is set
+to `C.UTF-8`. Otherwise the inserting of the
+russian values, as well as the special characters,
+will fail.
+
 ## Project description
 The project contains the following related tables:
 - `countries`,
