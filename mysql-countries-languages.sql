@@ -873,4 +873,58 @@ INSERT IGNORE INTO languages (
         "639-3":"ces"
     }',
     10700000
-);
+),
+(
+    37,
+    '{
+        "en":"Danish",
+        "es":"Danés",
+        "pt":"dinamarquês",
+        "de":"dänisch",
+        "ru":"Датский",
+        "fr":"Danois"
+    }',
+    '{
+        "639-1":"da",
+        "639-2-T":"dan",
+        "639-2-B":"dan",
+        "639-3":"dan"
+    }',
+    6000000
+),
+(
+    38,
+    '{
+        "en":"Dutch",
+        "es":"Holandés",
+        "pt":"Holandês",
+        "de":"Niederländisch",
+        "ru":"нидерландский язык",
+        "fr":"Néerlandais"
+    }',
+    '{
+        "639-1":"nl",
+        "639-2-T":"nld",
+        "639-2-B":"dut",
+        "639-3":"nld"
+    }',
+    29000000
+),
+(
+    39,
+    '{
+        "en":"Dzongkha",
+        "es":"Dzongkha",
+        "pt":"Dzongkha",
+        "de":"Dzongkha",
+        "ru":"Дзонгка",
+        "fr":"Dzongkha"
+    }',
+    '{
+        "639-1":"dz",
+        "639-2-T":"dzo",
+        "639-2-B":"dzo",
+        "639-3":"dzo"
+    }',
+    640000
+),
