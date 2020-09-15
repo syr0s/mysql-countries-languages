@@ -27,7 +27,7 @@ The project contains the following related tables:
 
 ## Table layout
 All tables have `utf8mb4` as default charset.
-![table_layout](https://user-images.githubusercontent.com/45044563/93175106-664bf900-f72f-11ea-9d8d-b15e908d6ff1.jpg)
+![image](https://user-images.githubusercontent.com/45044563/93254145-2f5dfd80-f798-11ea-904e-f96cf9f67028.png)
 
 ### Table: `countries`
 The countries table has the following design
