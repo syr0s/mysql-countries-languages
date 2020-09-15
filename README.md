@@ -19,6 +19,9 @@ The project contains the following related tables:
 - `states`,
 - and `languages`
 
+## Table layout
+![alt text](https://github.com/syr0s/mysql-countries-languages/tree/languages/img/table_layout.jpg?raw=true)
+
 ### Table: `countries`
 The countries table has the following design
 | Column | Type | Extras | Description |
