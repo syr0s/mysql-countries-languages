@@ -18,14 +18,23 @@
 /**
 * TABLE OF CONTENT
 * table creation
+*    countries table
 *    languages table
 *    continents table
+*    states table
+*
+* constraints
+*    countries-states
+*    continents-countries
+*    languages-countries
+*    
 * insert values
-*    continents
+*    continents (7 records)
+*    languages (182 records)
 **/
 
 /* table creation */
-/* create the countries table */
+/* create table countries */
 CREATE TABLE IF NOT EXISTS `countries` ( 
    `country_id` SMALLINT UNSIGNED NOT NULL COMMENT 'Primary key of the table. Didnt use auto increment to verify integrity',
    `country_name` JSON NOT NULL COMMENT 'json array of the country name in different languages',
@@ -38,7 +47,7 @@ CREATE TABLE IF NOT EXISTS `countries` (
    `currency` VARCHAR(3) NOT NULL COMMENT 'Currency in ISO 4217 format',
    `latitude` FLOAT NOT NULL COMMENT 'The latitude of the country',
    `longitude` FLOAT NOT NULL COMMENT 'The longitude of the country',
-   `residents` INT UNSIGNED COMMENT 'The residents of the country (can be null, if no data is available)',
+   `residents` BIGINT UNSIGNED COMMENT 'The residents of the country (can be null, if no data is available)',
    `area` INT UNSIGNED NOT NULL COMMENT 'Area of the country in square kilometers',
     PRIMARY KEY `Primary key`(
    `country_id`
@@ -46,29 +55,29 @@ CREATE TABLE IF NOT EXISTS `countries` (
 )
  COMMENT = 'table stores all countries with additional information"'
  ENGINE = InnoDB
- DEFAULT CHARACTER SET = UTF8
- ROW_FORMAT = Default;
+ DEFAULT CHARACTER SET = utf8mb4
+ ROW_FORMAT = Dynamic;
 
-/* create the languages table */
+ /* create table languages */
 CREATE TABLE IF NOT EXISTS `languages` ( 
    `language_id` SMALLINT UNSIGNED NOT NULL COMMENT 'Primary key of the table. Didnt use auto increment to verify integrity',
    `language_name` JSON NOT NULL COMMENT 'the language name in different languages',
    `language_codes` JSON NOT NULL COMMENT 'The different language codes',
-   `speakers` INT COMMENT 'worldwide speakers of the language',
+   `speakers` BIGINT COMMENT 'worldwide speakers of the language',
     PRIMARY KEY `Primary key`(
    `language_id`
     )
 )
  COMMENT = 'table stores all languages spoken on the world'
  ENGINE = InnoDB
- DEFAULT CHARACTER SET = UTF8
- ROW_FORMAT = Default;
+ DEFAULT CHARACTER SET = utf8mb4
+ ROW_FORMAT = Dynamic;
 
-/* create the continents table */
+ /* create table continents */
 CREATE TABLE IF NOT EXISTS `continents` ( 
    `continent_id` SMALLINT UNSIGNED NOT NULL COMMENT 'Primary key of the table. Didnt use auto increment to verify integrity',
    `continent_name` JSON NOT NULL COMMENT 'the language name in different languages',
-   `residents` INT UNSIGNED NOT NULL COMMENT 'Residents on this continent',
+   `residents` BIGINT UNSIGNED NOT NULL COMMENT 'Residents on this continent',
    `area` INT UNSIGNED NOT NULL COMMENT 'area in square kilometers',
     PRIMARY KEY `Primary key`(
    `continent_id`
@@ -76,16 +85,16 @@ CREATE TABLE IF NOT EXISTS `continents` (
 )
  COMMENT = 'table stores all continents with additional information'
  ENGINE = InnoDB
- DEFAULT CHARACTER SET = UTF8
- ROW_FORMAT = Default;
+ DEFAULT CHARACTER SET = utf8mb4
+ ROW_FORMAT = Dynamic;
 
-/* create the states table */
+ /* create table states */
 CREATE TABLE IF NOT EXISTS `states` ( 
    `state_id` INT UNSIGNED NOT NULL COMMENT 'Primary key of the table. Didnt use auto increment to verify integrity',
    `country_id` SMALLINT UNSIGNED NOT NULL COMMENT 'Foreign key to table countries',
    `state_name` JSON NOT NULL COMMENT 'the state name in different languages',
    `state_capital` JSON COMMENT 'the states capital city as json array',
-   `residents` INT UNSIGNED COMMENT 'Residents in this state',
+   `residents` BIGINT UNSIGNED COMMENT 'Residents in this state',
    `area` INT UNSIGNED COMMENT 'area in square kilometers',
     PRIMARY KEY `Primary key`(
    `state_id`
@@ -93,28 +102,10 @@ CREATE TABLE IF NOT EXISTS `states` (
 )
  COMMENT = 'table stores all states with additional information'
  ENGINE = InnoDB
- DEFAULT CHARACTER SET = UTF8
- ROW_FORMAT = Default;
+ DEFAULT CHARACTER SET = utf8mb4
+ ROW_FORMAT = Dynamic;
 
-/* create constraint between languages and countries */
-ALTER TABLE `countries` 
-  ADD CONSTRAINT `languages-countries`
-  FOREIGN KEY ( 
-   `official_language`
-)   REFERENCES `languages`( 
-   `language_id`
-) ;
-
-/* create constraint between continents and countries */
-ALTER TABLE `countries` 
-  ADD CONSTRAINT `continents-countries`
-  FOREIGN KEY ( 
-   `continent`
-)   REFERENCES `continents`( 
-   `continent_id`
-) ;
-
-/* create constraint between countries and states */
+/* add constraint countries-states */
 ALTER TABLE `states` 
   ADD CONSTRAINT `countries-states`
   FOREIGN KEY ( 
@@ -123,13 +114,31 @@ ALTER TABLE `states`
    `country_id`
 ) ;
 
+/* add constraint continents-countries */
+ALTER TABLE `countries` 
+  ADD CONSTRAINT `continents-countries`
+  FOREIGN KEY ( 
+   `continent`
+)   REFERENCES `continents`( 
+   `continent_id`
+) ;
+
+/* add constraint languages-countries */
+ALTER TABLE `countries` 
+  ADD CONSTRAINT `languages-countries`
+  FOREIGN KEY ( 
+   `official_language`
+)   REFERENCES `languages`( 
+   `language_id`
+) ;
+
 
 
 /* insert values */
 /* continents */
 /* source of the values: german Wikipedia */
-INSERT IGNORE INTO continents (
-    continent_id, continent_name, residents, area
+INSERT INTO `continents` (
+    `continent_id`, `continent_name`, `residents`, `area`
 ) VALUES (
     1,
     '{
@@ -223,8 +232,8 @@ INSERT IGNORE INTO continents (
 );
 
 /* languages */
-INSERT IGNORE INTO languages (
-    language_id, language_name, language_codes, speakers
+INSERT IGNORE INTO `languages` (
+    `language_id`, `language_name`, `language_codes`, `speakers`
 ) VALUES (
     1,
     '{
@@ -250,7 +259,7 @@ INSERT IGNORE INTO languages (
         "en":"Afar",
         "es":"Afar",
         "pt":"Afar",
-        "de":"Afar"
+        "de":"Afar",
         "ru":"Afar",
         "fr":"Afar"
     }',
@@ -268,7 +277,7 @@ INSERT IGNORE INTO languages (
         "en":"Afrikaans",
         "es":"africaans",
         "pt":"afrikaans",
-        de":"Afrikaans",
+        "de":"Afrikaans",
         "ru":"африкаанс",
         "fr":"afrikaans"
     }',
@@ -590,7 +599,7 @@ INSERT IGNORE INTO languages (
     21,
     '{
         "en":"Bislama",
-        "es":"Bislama"
+        "es":"Bislama",
         "pt":"Bislama",
         "de":"Bislama",
         "ru":"Бислама",
@@ -665,7 +674,7 @@ INSERT IGNORE INTO languages (
         "es":"Birmano",
         "pt":"Birmanês",
         "de":"birmanisch",
-        "ru":"Бирманский"
+        "ru":"Бирманский",
         "fr":"Birman"
     }',
     '{
@@ -1491,7 +1500,7 @@ INSERT IGNORE INTO languages (
 (
     71,
     '{
-        "en":"Japanese,
+        "en":"Japanese",
         "es":"Japonés",
         "pt":"Japonês",
         "de":"japanisch",
@@ -2397,7 +2406,7 @@ INSERT IGNORE INTO languages (
         "pt":"Ossético",
         "de":"Ossetisch",
         "ru":"Осетинский",
-        "fr":"Ossétique",
+        "fr":"Ossétique"
     }',
     '{
         "639-1":"os",
@@ -2415,7 +2424,7 @@ INSERT IGNORE INTO languages (
         "pt":"Punjabi",
         "de":"Punjabi",
         "ru":"Пенджаби",
-        "fr":"Punjabi",
+        "fr":"Punjabi"
     }',
     '{
         "639-1":"pa",
@@ -2829,7 +2838,7 @@ INSERT IGNORE INTO languages (
         "pt":"Somali",
         "de":"somali",
         "ru":"Сомалийский",
-        "fr":"somali",
+        "fr":"somali"
     }',
     '{
         "639-1":"so",

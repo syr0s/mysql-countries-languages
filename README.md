@@ -14,7 +14,7 @@ The following languages are included:
 
 ## Settings on the host
 Please make sure that the `locales` on your host is set
-set to `C.UTF-8`. Otherwise the inserting of the
+set to `LANG=C.UTF-8` and `LC_ALL=C.UTF-8`. Otherwise the inserting of the
 russian values, as well as the special characters,
 will fail.
 
