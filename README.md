@@ -1,6 +1,6 @@
 # mysql-countries-languages
-mySQL / MariaDB tables including countries
-and languages, in different languages, for
+mySQL / MariaDB tables including countries,
+languages and meta data in different languages, for
 your next project.
 
 ## Languages
@@ -14,7 +14,7 @@ The following languages are included:
 
 ## Settings on the host
 Please make sure that the `locales` on your host is set
-to `C.UTF-8`. Otherwise the inserting of the
+set to `C.UTF-8`. Otherwise the inserting of the
 russian values, as well as the special characters,
 will fail.
 
@@ -26,6 +26,7 @@ The project contains the following related tables:
 - and `languages`
 
 ## Table layout
+All tables have `utf8mb4` as default charset.
 ![table_layout](https://user-images.githubusercontent.com/45044563/93175106-664bf900-f72f-11ea-9d8d-b15e908d6ff1.jpg)
 
 ### Table: `countries`
