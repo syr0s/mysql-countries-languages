@@ -25,29 +25,105 @@
 **/
 
 /* table creation */
-/* create the languages table */
-CREATE TABLE IF NOT EXISTS languages (
-    language_id SMALLINT NOT NULL UNIQUE UNSIGNED COMMENT 'Primary key of the table. No auto increment, to verify the integrity',
-    language_name LONGTEXT NOT NULL COMMENT 'json array: { "ISO 639-1 code":"language name" }',
-    language_codes LONGTEXT NOT NULL COMMENT 'json array, with keys: 639-1, 639-2-T, 639-2-B, 639-3',
-    speakers INT UNSIGNED COMMENT 'total of people which speak the language',
-    PRIMARY KEY ( language_id )
+/* create the countries table */
+CREATE TABLE IF NOT EXISTS `countries` ( 
+   `country_id` SMALLINT UNSIGNED NOT NULL COMMENT 'Primary key of the table. Didnt use auto increment to verify integrity',
+   `country_name` JSON NOT NULL COMMENT 'json array of the country name in different languages',
+   `capital_city` JSON NOT NULL COMMENT 'json array of the capital city in different languages',
+   `official_name` JSON NOT NULL COMMENT 'json array of the official name in different languages',
+   `official_language` SMALLINT UNSIGNED NOT NULL COMMENT 'Foreign key to table languages',
+   `other_language` JSON COMMENT 'json array of other spoken languages',
+   `continent` SMALLINT UNSIGNED NOT NULL COMMENT 'Foreign key to table continents',
+   `country_codes` JSON NOT NULL COMMENT 'The different country codes',
+   `currency` VARCHAR(3) NOT NULL COMMENT 'Currency in ISO 4217 format',
+   `latitude` FLOAT NOT NULL COMMENT 'The latitude of the country',
+   `longitude` FLOAT NOT NULL COMMENT 'The longitude of the country',
+   `residents` INT UNSIGNED COMMENT 'The residents of the country (can be null, if no data is available)',
+   `area` INT UNSIGNED NOT NULL COMMENT 'Area of the country in square kilometers',
+    PRIMARY KEY `Primary key`(
+   `country_id`
+    )
 )
-ENGINE=InnoDB
-DEFAULT CHARSET=utf8
-COMMENT="table stores all languages spoken on the world"
+ COMMENT = 'table stores all countries with additional information"'
+ ENGINE = InnoDB
+ DEFAULT CHARACTER SET = UTF8
+ ROW_FORMAT = Default;
+
+/* create the languages table */
+CREATE TABLE IF NOT EXISTS `languages` ( 
+   `language_id` SMALLINT UNSIGNED NOT NULL COMMENT 'Primary key of the table. Didnt use auto increment to verify integrity',
+   `language_name` JSON NOT NULL COMMENT 'the language name in different languages',
+   `language_codes` JSON NOT NULL COMMENT 'The different language codes',
+   `speakers` INT COMMENT 'worldwide speakers of the language',
+    PRIMARY KEY `Primary key`(
+   `language_id`
+    )
+)
+ COMMENT = 'table stores all languages spoken on the world'
+ ENGINE = InnoDB
+ DEFAULT CHARACTER SET = UTF8
+ ROW_FORMAT = Default;
 
 /* create the continents table */
-CREATE TABLE IF NOT EXISTS continents (
-    continent_id SMALLINT NOT NULL UNIQUE UNSIGNED COMMENT 'Primary key of the table. No auto increment, to verify the integrity',
-    continent_name LONGTEXT NOT NULL COMMENT 'json array: { "ISO 639-1 code":"language name" }',
-    residents INT NOT NULL UNSIGNED COMMENT 'residents living on this continent',
-    area INT NOT NULL UNSIGNED COMMENT 'the area in square kilometers',
-    PRIMARY KEY ( continent_id )
+CREATE TABLE IF NOT EXISTS `continents` ( 
+   `continent_id` SMALLINT UNSIGNED NOT NULL COMMENT 'Primary key of the table. Didnt use auto increment to verify integrity',
+   `continent_name` JSON NOT NULL COMMENT 'the language name in different languages',
+   `residents` INT UNSIGNED NOT NULL COMMENT 'Residents on this continent',
+   `area` INT UNSIGNED NOT NULL COMMENT 'area in square kilometers',
+    PRIMARY KEY `Primary key`(
+   `continent_id`
+    )
 )
-ENGINE=InnoDB
-DEFAULT CHARSET=utf8
-COMMENT="table stores all continents with additional information";
+ COMMENT = 'table stores all continents with additional information'
+ ENGINE = InnoDB
+ DEFAULT CHARACTER SET = UTF8
+ ROW_FORMAT = Default;
+
+/* create the states table */
+CREATE TABLE IF NOT EXISTS `states` ( 
+   `state_id` INT UNSIGNED NOT NULL COMMENT 'Primary key of the table. Didnt use auto increment to verify integrity',
+   `country_id` SMALLINT UNSIGNED NOT NULL COMMENT 'Foreign key to table countries',
+   `state_name` JSON NOT NULL COMMENT 'the state name in different languages',
+   `state_capital` JSON COMMENT 'the states capital city as json array',
+   `residents` INT UNSIGNED COMMENT 'Residents in this state',
+   `area` INT UNSIGNED COMMENT 'area in square kilometers',
+    PRIMARY KEY `Primary key`(
+   `state_id`
+    )
+)
+ COMMENT = 'table stores all states with additional information'
+ ENGINE = InnoDB
+ DEFAULT CHARACTER SET = UTF8
+ ROW_FORMAT = Default;
+
+/* create constraint between languages and countries */
+ALTER TABLE `countries` 
+  ADD CONSTRAINT `languages-countries`
+  FOREIGN KEY ( 
+   `official_language`
+)   REFERENCES `languages`( 
+   `language_id`
+) ;
+
+/* create constraint between continents and countries */
+ALTER TABLE `countries` 
+  ADD CONSTRAINT `continents-countries`
+  FOREIGN KEY ( 
+   `continent`
+)   REFERENCES `continents`( 
+   `continent_id`
+) ;
+
+/* create constraint between countries and states */
+ALTER TABLE `states` 
+  ADD CONSTRAINT `countries-states`
+  FOREIGN KEY ( 
+   `country_id`
+)   REFERENCES `countries`( 
+   `country_id`
+) ;
+
+
 
 /* insert values */
 /* continents */
@@ -796,4 +872,5 @@ INSERT IGNORE INTO languages (
         "639-2-B":"cze",
         "639-3":"ces"
     }',
-),
+    10700000
+);
