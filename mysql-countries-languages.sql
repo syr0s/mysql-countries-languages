@@ -1001,3 +1001,93 @@ INSERT IGNORE INTO languages (
     }',
     5000000
 ),
+(
+    44,
+    '{
+        "en":"Faroese",
+        "es":"Feroés",
+        "pt":"Faroense",
+        "de":"Färöer",
+        "ru":"Фарерские острова",
+        "fr":"Féroïen"
+    }',
+    '{
+        "639-1":"fo",
+        "639-2-T":"fao",
+        "639-2-B":"fao",
+        "639-3":"fao"
+    }',
+    72000
+),
+(
+    45,
+    '{
+        "en":"Fijian",
+        "es":"Fiyiano",
+        "pt":"De Fiji",
+        "de":"Fidschianisch",
+        "ru":"Фиджийский",
+        "fr":"Fidjien"
+    }',
+    '{
+        "639-1":"fj",
+        "639-2-T":"fij",
+        "639-2-B":"fij",
+        "639-3":"fij"
+    }',
+    339210
+),
+(
+    46,
+    '{
+        "en":"Finnish",
+        "es":"Finlandés",
+        "pt":"Finlandês",
+        "de":"finnisch",
+        "ru":"Финский",
+        "fr":"Finlandais"
+    }',
+    '{
+        "639-1":"fi",
+        "639-2-T":"fin",
+        "639-2-B":"fin",
+        "639-3":"fin"
+    }',
+    5400000
+),
+(
+    47,
+    '{
+        "en":"French",
+        "es":"Francés",
+        "pt":"Francês",
+        "de":"Französisch",
+        "ru":"французский язык",
+        "fr":"Français"
+    }',
+    '{
+        "639-1":"fr",
+        "639-2-T":"fra",
+        "639-2-B":"fre",
+        "639-3":"fra"
+    }',
+    274000000
+),
+(
+    48,
+    '{
+        "en":"Fulah",
+        "es":"Fulah",
+        "pt":"Fulah",
+        "de":"Fulah",
+        "ru":"Фулах",
+        "fr":"Fulah"
+    }',
+    '{
+        "639-1":"ff",
+        "639-2-T":"ful",
+        "639-2-B":"ful",
+        "639-3":"ful + 9"
+    }',
+    65000000
+),
