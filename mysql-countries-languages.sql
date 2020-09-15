@@ -2947,3 +2947,273 @@ INSERT IGNORE INTO languages (
     }',
     10000000
 ),
+(
+    152,
+    '{
+        "en":"Tamil",
+        "es":"Tamil",
+        "pt":"tâmil",
+        "de":"Tamil",
+        "ru":"Тамильский",
+        "fr":"Tamil"
+    }',
+    '{
+        "639-1":"ta",
+        "639-2-T":"tam",
+        "639-2-B":"tam",
+        "639-3":"tam"
+    }',
+    75000000
+),
+(
+    153,
+    '{
+        "en":"Telugu",
+        "es":"Telugu",
+        "pt":"Telugu",
+        "de":"Telugu",
+        "ru":"телугу",
+        "fr":"Telugu"
+    }',
+    '{
+        "639-1":"te",
+        "639-2-T":"tel",
+        "639-2-B":"tel",
+        "639-3":"tel"
+    }',
+    82000000
+),
+(
+    154,
+    '{
+        "en":"Tajik",
+        "es":"Tayiko",
+        "pt":"Tadjique",
+        "de":"Tadschikisch",
+        "ru":"Таджикский",
+        "fr":"Tadjik"
+    }',
+    '{
+        "639-1":"tg",
+        "639-2-T":"tgk",
+        "639-2-B":"tgk",
+        "639-3":"tgk"
+    }',
+    8400000
+),
+(
+    155,
+    '{
+        "en":"Thai",
+        "es":"Tailandés",
+        "pt":"Tailandês",
+        "de":"Thai",
+        "ru":"Тайский",
+        "fr":"thaïlandais"
+    }',
+    '{
+        "639-1":"th",
+        "639-2-T":"tha",
+        "639-2-B":"tha",
+        "639-3":"tha"
+    }',
+    36000000
+),
+(
+    156,
+    '{
+        "en":"Tigrinya",
+        "es":"Tigrinya",
+        "pt":"Tigrinya",
+        "de":"Tigrinya",
+        "ru":"Тигринья",
+        "fr":"Tigrinya"
+    }',
+    '{
+        "639-1":"ti",
+        "639-2-T":"tir",
+        "639-2-B":"tir",
+        "639-3":"tir"
+    }',
+    9000000
+),
+(
+    157,
+    '{
+        "en":"Tibetan",
+        "es":"Tibetano",
+        "pt":"Tibetano",
+        "de":"Tibetisch",
+        "ru":"тибетский",
+        "fr":"Tibétain"
+    }',
+    '{
+        "639-1":"bo",
+        "639-2-T":"bod",
+        "639-2-B":"tib",
+        "639-3":"bod"
+    }',
+    1200000
+),
+(
+    158,
+    '{
+        "en":"Turkmen",
+        "es":"Turcomano",
+        "pt":"Turcomano",
+        "de":"Turkmenen",
+        "ru":"туркменский",
+        "fr":"Turkmène"
+    }',
+    '{
+        "639-1":"tk",
+        "639-2-T":"tuk",
+        "639-2-B":"tuk",
+        "639-3":"tuk"
+    }',
+    6700000
+),
+(
+    159,
+    '{
+        "en":"Tagalog",
+        "es":"Tagalo",
+        "pt":"Tagalo",
+        "de":"Tagalog",
+        "ru":"Тагальский",
+        "fr":"Tagalog"
+    }',
+    '{
+        "639-1":"tl",
+        "639-2-T":"tgl",
+        "639-2-B":"tgl",
+        "639-3":"tgl"
+    }',
+    23800000
+),
+(
+    160,
+    '{
+        "en":"Tswana",
+        "es":"Tswana",
+        "pt":"Tswana",
+        "de":"Tswana",
+        "ru":"Тсвана",
+        "fr":"Tswana"
+    }',
+    '{
+        "639-1":"tn",
+        "639-2-T":"tsn",
+        "639-2-B":"tsn",
+        "639-3":"tsn"
+    }',
+    4100000
+),
+(
+    161,
+    '{
+        "en":"Tonga",
+        "es":"Tonga",
+        "pt":"Tonga",
+        "de":"Tonga",
+        "ru":"Тонга",
+        "fr":"Tonga"
+    }',
+    '{
+        "639-1":"to",
+        "639-2-T":"ton",
+        "639-2-B":"ton",
+        "639-3":"ton"
+    }',
+    187000
+),
+(
+    162,
+    '{
+        "en":"Turkish",
+        "es":"Turco",
+        "pt":"Turco",
+        "de":"Türkisch",
+        "ru":"турецкий",
+        "fr":"Turc"
+    }',
+    '{
+        "639-1":"tr",
+        "639-2-T":"tur",
+        "639-2-B":"tur",
+        "639-3":"tur"
+    }',
+    75700000
+),
+(
+    163,
+    '{
+        "en":"Tsonga",
+        "es":"Tsonga",
+        "pt":"Tsonga",
+        "de":"Tsonga",
+        "ru":"Тсонга",
+        "fr":"Tsonga"
+    }',
+    '{
+        "639-1":"ts",
+        "639-2-T":"tso",
+        "639-2-B":"tso",
+        "639-3":"tso"
+    }',
+    12000000
+),
+(
+    164,
+    '{
+        "en":"Tatar",
+        "es":"Tártaro",
+        "pt":"Tártaro",
+        "de":"Tatar",
+        "ru":"Татарский",
+        "fr":"Tatar"
+    }',
+    '{
+        "639-1":"tt",
+        "639-2-T":"tat",
+        "639-2-B":"tat",
+        "639-3":"tat"
+    }',
+    5200000
+),
+(
+    165,
+    '{
+        "en":"Twi",
+        "es":"Twi",
+        "pt":"Twi",
+        "de":"Twi",
+        "ru":"Тви",
+        "fr":"Twi"
+    }',
+    '{
+        "639-1":"tw",
+        "639-2-T":"twi",
+        "639-2-B":"twi",
+        "639-3":"twi"
+    }',
+    947000
+),
+(
+    166,
+    '{
+        "en":"Tahitian",
+        "es":"Tahitiano",
+        "pt":"Taitiano",
+        "de":"Tahitisch",
+        "ru":"Таитянский",
+        "fr":"Tahitien"
+    }',
+    '{
+        "639-1":"ty",
+        "639-2-T":"tah",
+        "639-2-B":"tah",
+        "639-3":"tah"
+    }',
+    68260
+),
