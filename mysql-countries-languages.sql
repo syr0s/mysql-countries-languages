@@ -2299,3 +2299,111 @@ INSERT IGNORE INTO languages (
     }',
     1100000
 ),
+(
+    116,
+    '{
+        "en":"Occitan",
+        "es":"Occitano",
+        "pt":"Occitano",
+        "de":"Okzitanisch",
+        "ru":"Окситанский",
+        "fr":"Occitan"
+    }',
+    '{
+        "639-1":"oc",
+        "639-2-T":"oci",
+        "639-2-B":"oci",
+        "639-3":"oci"
+    }',
+    800000
+),
+(
+    117,
+    '{
+        "en":"Ojibwa",
+        "es":"Ojibwa",
+        "pt":"Ojibwa",
+        "de":"Ojibwa",
+        "ru":"Оджибва",
+        "fr":"Ojibwa"
+    }',
+    '{
+        "639-1":"oj",
+        "639-2-T":"oji",
+        "639-2-B":"oji",
+        "639-3":"oji + 7"
+    }',
+    100880
+),
+(
+    118,
+    '{
+        "en":"Church Slavic",
+        "es":"Iglesia eslava",
+        "pt":"Igreja eslava",
+        "de":"Kirchenslawisch",
+        "ru":"Церковнославянский",
+        "fr":"Église slave"
+    }',
+    '{
+        "639-1":"cu",
+        "639-2-T":"chu",
+        "639-2-B":"chu",
+        "639-3":"chu"
+    }',
+    null
+),
+(
+    119,
+    '{
+        "en":"Oromo",
+        "es":"Oromo",
+        "pt":"Oromo",
+        "de":"Oromo",
+        "ru":"Оромо",
+        "fr":"Oromo"
+    }',
+    '{
+        "639-1":"om",
+        "639-2-T":"orm",
+        "639-2-B":"orm",
+        "639-3":"orm + 4"
+    }',
+    37000000
+),
+(
+    120,
+    '{
+        "en":"Oriya",
+        "es":"Oriya",
+        "pt":"Oriya",
+        "de":"Oriya",
+        "ru":"Ория",
+        "fr":"Oriya"
+    }',
+    '{
+        "639-1":"or",
+        "639-2-T":"ori",
+        "639-2-B":"ori",
+        "639-3":"ori + 2"
+    }',
+    35000000
+),
+(
+    121,
+    '{
+        "en":"Ossetic",
+        "es":"Osético",
+        "pt":"Ossético",
+        "de":"Ossetisch",
+        "ru":"Осетинский",
+        "fr":"Ossétique",
+    }',
+    '{
+        "639-1":"os",
+        "639-2-T":"oss",
+        "639-2-B":"oss",
+        "639-3":"oss"
+    }',
+    600000
+),
