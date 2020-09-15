@@ -992,14 +992,13 @@ INSERT IGNORE INTO `languages` (
 ),
 (
     43,
-    /* TODO: translation */
     '{
         "en":"Ewe",
-        "es":"Ewe",
-        "pt":"Ewe",
+        "es":"oveja",
+        "pt":"ovelha",
         "de":"Ewe",
-        "ru":"Ewe",
-        "fr":"Ewe"
+        "ru":"овца",
+        "fr":"Éwé"
     }',
     '{
         "639-1":"ee",
@@ -1425,14 +1424,13 @@ INSERT IGNORE INTO `languages` (
 ),
 (
     67,
-    /* TODO: translation */
     '{
         "en":"Ido",
-        "es":"Ido",
-        "pt":"Ido",
+        "es":"ido",
+        "pt":"ido",
         "de":"Ido",
-        "ru":"Ido",
-        "fr":"Ido"
+        "ru":"идо",
+        "fr":"ido"
     }',
     '{
         "639-1":"io",
