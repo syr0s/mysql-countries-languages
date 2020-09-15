@@ -1091,3 +1091,111 @@ INSERT IGNORE INTO languages (
     }',
     65000000
 ),
+(
+    49,
+    '{
+        "en":"Galician",
+        "es":"Gallego",
+        "pt":"Galego",
+        "de":"galizisch",
+        "ru":"Галицкий",
+        "fr":"Galicien"
+    }',
+    '{
+        "639-1":"gl",
+        "639-2-T":"glg",
+        "639-2-B":"glg",
+        "639-3":"glg"
+    }',
+    2400000
+),
+(
+    50,
+    '{
+        "en":"Georgian",
+        "es":"Georgiano",
+        "pt":"Georgiano",
+        "de":"georgisch",
+        "ru":"Грузинский",
+        "fr":"Géorgien"
+    }',
+    '{
+        "639-1":"ka",
+        "639-2-T":"kat",
+        "639-2-B":"geo",
+        "639-3":"kat"
+    }',
+    3700000
+),
+(
+    51,
+    '{
+        "en":"German",
+        "es":"Alemán",
+        "pt":"Alemã",
+        "de":"Deutsch",
+        "ru":"Немецкий",
+        "fr":"Allemand"
+    }',
+    '{
+        "639-1":"de",
+        "639-2-T":"deu",
+        "639-2-B":"ger",
+        "639-3":"deu"
+    }',
+    95000000
+),
+(
+    52,
+    '{
+        "en":"Greek",
+        "es":"Griego",
+        "pt":"Grego",
+        "de":"griechisch",
+        "ru":"Греческий",
+        "fr":"Grec"
+    }',
+    '{
+        "639-1":"el",
+        "639-2-T":"ell",
+        "639-2-B":"gre",
+        "639-3":"ell"
+    }',
+    13400000
+),
+(
+    53,
+    '{
+        "en":"Guarani",
+        "es":"Guarani",
+        "pt":"Guarani",
+        "de":"Guarani",
+        "ru":"Гуарани",
+        "fr":"Guarani"
+    }',
+    '{
+        "639-1":"gn",
+        "639-2-T":"grn",
+        "639-2-B":"grn",
+        "639-3":"grn + 5"
+    }',
+    4850000
+),
+(
+    54,
+    '{
+        "en":"Gujarati",
+        "es":"Gujarati",
+        "pt":"Guzerate",
+        "de":"Gujarati",
+        "ru":"Гуджарати",
+        "fr":"Gujarati"
+    }',
+    '{
+        "639-1":"gu",
+        "639-2-T":"guj",
+        "639-2-B":"guj",
+        "639-3":"guj"
+    }',
+    56000000
+),
