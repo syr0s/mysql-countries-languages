@@ -41,10 +41,13 @@ The countries table has the following design
 | other_language | JSON | | json array of other spoken languages |
 | continent | SMALLINT | NN, UN, FK | Foreign key to table continents |
 | country_codes | JSON | NN | The different country codes |
+| economic| JSON | NN | Economic data of the country |
 | currency | VARCHAR(3) | NN | Currency in ISO 4217 format |
+| timezone | JSON | NN | Timezones of the country |
 | latitude | FLOAT | NN | The latitude of the country |
 | longitude | FLOAT | NN | The longitude of the country |
 | residents | INT | UN | The residents of the country (can be null, if no data is available) |
+| density | INT | UN | Density (per square kilometer |
 | area | INT | NN, UN | Area of the country in square kilometers |
 
 ***Design of the default json array 
@@ -73,6 +76,42 @@ The countries table has the following design
    "ccn3":"code ISO 3166-1 numeric",
    "cca3":"code ISO 3166-1 alpha-3",
    "call":"calling code"
+}
+```
+
+***Design of the economic array:***
+```
+{
+   # Year of the statistic
+   "Year":{
+      "GDP-PPP:{
+         "Total":"value",
+         "Per-capita":"value"
+      },
+      "GDP-nominal":{
+         "Total":"value",
+         "Per-capita":"value"
+      },
+      "Gini":"value",
+      "HDI":"value"
+   }
+}
+```
+
+***Design of the timezone array:***
+```
+{
+   "1":{
+      "standard"{
+         "UTC":"+1",
+         "timezone":"CET"
+      },
+      "summer":{
+         "UTC":"+2",
+         "timezone":"CEST"
+      }
+   }
+   ...
 }
 ```
 
