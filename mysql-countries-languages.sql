@@ -928,3 +928,76 @@ INSERT IGNORE INTO languages (
     }',
     640000
 ),
+(
+    40,
+    '{
+        "en":"English",
+        "es":"Inglés",
+        "pt":"Inglês",
+        "de":"Englisch",
+        "ru":"английский",
+        "fr":"Anglais"
+    }',
+    '{
+        "639-1":"en",
+        "639-2-T":"eng",
+        "639-2-B":"eng",
+        "639-3":"eng"
+    }',
+    1150000
+),
+(
+    41,
+    '{
+        "en":"Esperanto",
+        "es":"esperanto",
+        "pt":"esperanto",
+        "de":"Esperanto",
+        "ru":"эсперанто",
+        "fr":"espéranto"
+    }',
+    '{
+        "639-1":"eo",
+        "639-2-T":"epo",
+        "639-2-B":"epo",
+        "639-3":"epo"
+    }',
+    2000000
+),
+(
+    42,
+    '{
+        "en":"Estonian",
+        "es":"Estonio",
+        "pt":"Estoniano",
+        "de":"estnisch",
+        "ru":"эстонский",
+        "fr":"estonien"
+    }',
+    '{
+        "639-1":"et",
+        "639-2-T":"est",
+        "639-2-B":"est",
+        "639-3":"est + 2"
+    }',
+    1100000
+),
+(
+    43,
+    /* TODO: translation */
+    '{
+        "en":"Ewe",
+        "es":"Ewe",
+        "pt":"Ewe",
+        "de":"Ewe",
+        "ru":"Ewe",
+        "fr":"Ewe"
+    }',
+    '{
+        "639-1":"ee",
+        "639-2-T":"ewe",
+        "639-2-B":"ewe",
+        "639-3":"ewe"
+    }',
+    5000000
+),
