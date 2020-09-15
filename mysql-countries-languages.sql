@@ -3289,3 +3289,57 @@ INSERT IGNORE INTO languages (
     }',
     27000000
 ),
+(
+    171,
+    '{
+        "en":"Venda",
+        "es":"Venda",
+        "pt":"Venda",
+        "de":"Venda",
+        "ru":"Венда",
+        "fr":"Venda"
+    }',
+    '{
+        "639-1":"ve",
+        "639-2-T":"ven",
+        "639-2-B":"ven",
+        "639-3":"ven"
+    }',
+    1300000
+),
+(
+    172,
+    '{
+        "en":"Vietnamese",
+        "es":"vietnamita",
+        "pt":"vietnamita",
+        "de":"Vietnamesisch",
+        "ru":"вьетнамский",
+        "fr":"Vietnamien"
+    }',
+    '{
+        "639-1":"vi",
+        "639-2-T":"vie",
+        "639-2-B":"vie",
+        "639-3":"vie"
+    }',
+    90000000
+),
+(
+    173,
+    '{
+        "en":"Volapük",
+        "es":"Volapük",
+        "pt":"Volapük",
+        "de":"Volapük",
+        "ru":"Волапюк",
+        "fr":"Volapük"
+    }',
+    '{
+        "639-1":"vo",
+        "639-2-T":"vol",
+        "639-2-B":"vol",
+        "639-3":"vol"
+    }',
+    20
+),
