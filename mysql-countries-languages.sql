@@ -1488,3 +1488,39 @@ INSERT IGNORE INTO languages (
     }',
     35215
 ),
+(
+    71,
+    '{
+        "en":"Japanese,
+        "es":"Japonés",
+        "pt":"Japonês",
+        "de":"japanisch",
+        "ru":"японский язык",
+        "fr":"Japonais"
+    }',
+    '{
+        "639-1":"ja",
+        "639-2-T":"jpn",
+        "639-2-B":"jpn",
+        "639-3":"jpn"
+    }',
+    128000000
+),
+(
+    72,
+    '{
+        "en":"Javanese",
+        "es":"Javanés",
+        "pt":"Javanês",
+        "de":"Javanisch",
+        "ru":"Яванский",
+        "fr":"Javanais"
+    }',
+    '{
+        "639-1":"jv",
+        "639-2-T":"jav",
+        "639-2-B":"jav",
+        "639-3":"jav"
+    }',
+    82000000
+),
