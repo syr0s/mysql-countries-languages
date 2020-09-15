@@ -2605,3 +2605,345 @@ INSERT IGNORE INTO languages (
     }',
     150000000
 ),
+(
+    133,
+    '{
+        "en":"Sanskrit",
+        "es":"Sánscrito",
+        "pt":"sânscrito",
+        "de":"Sanskrit",
+        "ru":"санскрит",
+        "fr":"Sanskrit"
+    }',
+    '{
+        "639-1":"sa",
+        "639-2-T":"san",
+        "639-2-B":"san",
+        "639-3":"san"
+    }',
+    2360821
+),
+(
+    134,
+    '{
+        "en":"Sardinian",
+        "es":"Sardo",
+        "pt":"Da Sardenha",
+        "de":"Sardinisch",
+        "ru":"Сардинский",
+        "fr":"Sarde"
+    }',
+    '{
+        "639-1":"sc",
+        "639-2-T":"srd",
+        "639-2-B":"srd",
+        "639-3":"srd + 4"
+    }',
+    1350000
+),
+(
+    135,
+    '{
+        "en":"Sindhi",
+        "es":"Sindhi",
+        "pt":"Sindhi",
+        "de":"Sindhi",
+        "ru":"Синдхи",
+        "fr":"Sindhi"
+    }',
+    '{
+        "639-1":"sd",
+        "639-2-T":"snd",
+        "639-2-B":"snd",
+        "639-3":"snd"
+    }',
+    38000000
+),
+(
+    136,
+    '{
+        "en":"Sami",
+        "es":"Sami",
+        "pt":"Sami",
+        "de":"Sami",
+        "ru":"Саами",
+        "fr":"Sami"
+    }',
+    '{
+        "639-1":"se",
+        "639-2-T":"sme",
+        "639-2-B":"sme",
+        "639-3":"sme"
+    }',
+    25000
+),
+(
+    137,
+    '{
+        "en":"Samoan",
+        "es":"Samoano",
+        "pt":"Samoano",
+        "de":"samoanisch",
+        "ru":"Самоанский",
+        "fr":"Samoan"
+    }',
+    '{
+        "639-1":"sm",
+        "639-2-T":"smo",
+        "639-2-B":"smo",
+        "639-3":"smo"
+    }',
+    510000
+),
+(
+    138,
+    '{
+        "en":"Sango",
+        "es":"Sango",
+        "pt":"Sango",
+        "de":"Sango",
+        "ru":"Санго",
+        "fr":"Sango"
+    }',
+    '{
+        "639-1":"sg",
+        "639-2-T":"sag",
+        "639-2-B":"sag",
+        "639-3":"sag"
+    }',
+    450000
+),
+(
+    139,
+    '{
+        "en":"Serbian",
+        "es":"Serbio",
+        "pt":"Sérvio",
+        "de":"serbisch",
+        "ru":"сербский",
+        "fr":"serbe"
+    }',
+    '{
+        "639-1":"sr",
+        "639-2-T":"srp",
+        "639-2-B":"srp",
+        "639-3":"srp"
+    }',
+    9500000
+),
+(
+    140,
+    '{
+        "en":"Gaelic",
+        "es":"Gaélico",
+        "pt":"Gaélico",
+        "de":"gälisch",
+        "ru":"Гэльский",
+        "fr":"gaélique"
+    }',
+    '{
+        "639-1":"gd",
+        "639-2-T":"gla",
+        "639-2-B":"gla",
+        "639-3":"gla"
+    }',
+    87000
+),
+(
+    141,
+    '{
+        "en":"Shona",
+        "es":"Shona",
+        "pt":"Shona",
+        "de":"Shona",
+        "ru":"Шона",
+        "fr":"Shona"
+    }',
+    '{
+        "639-1":"sn",
+        "639-2-T":"sna",
+        "639-2-B":"sna",
+        "639-3":"sna"
+    }',
+    8300000
+),
+(
+    142,
+    '{
+        "en":"Sinhala",
+        "es":"Sinhala",
+        "pt":"Sinhala",
+        "de":"Singhalesisch",
+        "ru":"Сингальский",
+        "fr":"Cinghalais"
+    }',
+    '{
+        "639-1":"si",
+        "639-2-T":"sin",
+        "639-2-B":"sin",
+        "639-3":"sin"
+    }',
+    17000000
+),
+(
+    143,
+    '{
+        "en":"Slovak",
+        "es":"Eslovaco",
+        "pt":"Eslovaco",
+        "de":"slowakisch",
+        "ru":"словацкий",
+        "fr":"slovaque"
+    }',
+    '{
+        "639-1":"sk",
+        "639-2-T":"slk",
+        "639-2-B":"slo",
+        "639-3":"slk"
+    }',
+    5200000
+),
+(
+    144,
+    '{
+        "en":"Slovenian",
+        "es":"Esloveno",
+        "pt":"Esloveno",
+        "de":"Slowenisch",
+        "ru":"словенский",
+        "fr":"slovène"
+    }',
+    '{
+        "639-1":"sl",
+        "639-2-T":"slv",
+        "639-2-B":"slv",
+        "639-3":"slv"
+    }',
+    2500000
+),
+(
+    145,
+    '{
+        "en":"Somali",
+        "es":"somalí",
+        "pt":"Somali",
+        "de":"somali",
+        "ru":"Сомалийский",
+        "fr":"somali",
+    }',
+    '{
+        "639-1":"so",
+        "639-2-T":"som",
+        "639-2-B":"som",
+        "639-3":"som"
+    }',
+    16000000
+),
+(
+    146,
+    '{
+        "en":"Sotho",
+        "es":"Sotho",
+        "pt":"Sotho",
+        "de":"Sotho",
+        "ru":"Сото",
+        "fr":"Sotho"
+    }',
+    '{
+        "639-1":"st",
+        "639-2-T":"sot",
+        "639-2-B":"sot",
+        "639-3":"sot"
+    }',
+    5600000
+),
+(
+    147,
+    '{
+        "en":"Spanish",
+        "es":"Español",
+        "pt":"Espanhol",
+        "de":"Spanisch",
+        "ru":"испанский",
+        "fr":"Espagnol"
+    }',
+    '{
+        "639-1":"es",
+        "639-2-T":"spa",
+        "639-2-B":"spa",
+        "639-3":"spa"
+    }',
+    483000000
+),
+(
+    148,
+    '{
+        "en":"Sundanese",
+        "es":"Sundanés",
+        "pt":"Sudanês",
+        "de":"Sundanais",
+        "ru":"Суданский",
+        "fr":"Sundanais"
+    }',
+    '{
+        "639-1":"su",
+        "639-2-T":"sun",
+        "639-2-B":"sun",
+        "639-3":"sun"
+    }',
+    40000000
+),
+(
+    149,
+    '{
+        "en":"Swahili",
+        "es":"swahili",
+        "pt":"Suaíli",
+        "de":"Swahili",
+        "ru":"суахили",
+        "fr":"Swahili"
+    }',
+    '{
+        "639-1":"sw",
+        "639-2-T":"swa",
+        "639-2-B":"swa",
+        "639-3":"swa + 2"
+    }',
+    150000000
+),
+(
+    150,
+    '{
+        "en":"Swati",
+        "es":"Swati",
+        "pt":"Swati",
+        "de":"Swati",
+        "ru":"Свати",
+        "fr":"Swati"
+    }',
+    '{
+        "639-1":"ss",
+        "639-2-T":"ssw",
+        "639-2-B":"ssw",
+        "639-3":"ssw"
+    }',
+    2300000
+),
+(
+    151,
+    '{
+        "en":"Swedish",
+        "es":"Sueco",
+        "pt":"Sueco",
+        "de":"Schwedisch",
+        "ru":"Шведский",
+        "fr":"Suédois"
+    }',
+    '{
+        "639-1":"sv",
+        "639-2-T":"swe",
+        "639-2-B":"swe",
+        "639-3":"swe"
+    }',
+    10000000
+),
