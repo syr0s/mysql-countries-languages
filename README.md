@@ -118,7 +118,7 @@ The states table has the following design
 |  --------------  | -------------- | -------------- | -------------- |
 | state_id | SMALLINT | NN, UQ, UN, PK | Primary key of the table. Didn't use auto increment to verify integrity |
 | country_id | SMALLINT | NN, UN | Foreign key to table countries |
-| state_name | JSON | NN | the language name in different languages |
+| state_name | JSON | NN | the state name in different languages |
 | state_capital | JSON | | the states capital city as json array |
 | residents | INT | UN | Residents in this state |
 | area | INT | UN | area in square kilometers |
