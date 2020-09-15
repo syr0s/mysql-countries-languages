@@ -3217,3 +3217,75 @@ INSERT IGNORE INTO languages (
     }',
     68260
 ),
+(
+    167,
+    '{
+        "en":"Uighur",
+        "es":"Uigur",
+        "pt":"Uigur",
+        "de":"Uighur",
+        "ru":"Уйгурский",
+        "fr":"Ouïghour"
+    }',
+    '{
+        "639-1":"ug",
+        "639-2-T":"uig",
+        "639-2-B":"uig",
+        "639-3":"uig"
+    }',
+    10000000
+),
+(
+    168,
+    '{
+        "en":"Ukrainian",
+        "es":"Ucranio",
+        "pt":"Ucraniano",
+        "de":"ukrainisch",
+        "ru":"украинец",
+        "fr":"ukrainien"
+    }',
+    '{
+        "639-1":"uk",
+        "639-2-T":"ukr",
+        "639-2-B":"ukr",
+        "639-3":"ukr"
+    }',
+    40000000
+),
+(
+    169,
+    '{
+        "en":"Urdu",
+        "es":"Urdu",
+        "pt":"urdu",
+        "de":"Urdu",
+        "ru":"Урду",
+        "fr":"Ourdou"
+    }',
+    '{
+        "639-1":"ur",
+        "639-2-T":"urd",
+        "639-2-B":"urd",
+        "639-3":"urd"
+    }',
+    68620000
+),
+(
+    170,
+    '{
+        "en":"Uzbek",
+        "es":"Uzbeko",
+        "pt":"Uzbeque",
+        "de":"Usbekisch",
+        "ru":"Узбекский",
+        "fr":"Ouzbek"
+    }',
+    '{
+        "639-1":"uz",
+        "639-2-T":"uzb",
+        "639-2-B":"uzb",
+        "639-3":"uzb + 2"
+    }',
+    27000000
+),
