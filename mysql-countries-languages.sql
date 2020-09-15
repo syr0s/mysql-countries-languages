@@ -2407,3 +2407,111 @@ INSERT IGNORE INTO languages (
     }',
     600000
 ),
+(
+    122,
+    '{
+        "en":"Punjabi",
+        "es":"punjabi",
+        "pt":"Punjabi",
+        "de":"Punjabi",
+        "ru":"Пенджаби",
+        "fr":"Punjabi",
+    }',
+    '{
+        "639-1":"pa",
+        "639-2-T":"pan",
+        "639-2-B":"pan",
+        "639-3":"pan"
+    }',
+    125000000
+),
+(
+    123,
+    '{
+        "en":"Pali",
+        "es":"Pali",
+        "pt":"Pali",
+        "de":"Pali",
+        "ru":"пали",
+        "fr":"Pali"
+    }',
+    '{
+        "639-1":"pi",
+        "639-2-T":"pli",
+        "639-2-B":"pli",
+        "639-3":"pli"
+    }',
+    null
+),
+(
+    124,
+    '{
+        "en":"Persian",
+        "es":"persa",
+        "pt":"persa",
+        "de":"persisch",
+        "ru":"Персидский",
+        "fr":"Persan"
+    }',
+    '{
+        "639-1":"fa",
+        "639-2-T":"fas",
+        "639-2-B":"per",
+        "639-3":"fas + 2"
+    }',
+    110000000
+),
+(
+    125,
+    '{
+        "en":"Polish",
+        "es":"polaco",
+        "pt":"polonesa",
+        "de":"polnisch",
+        "ru":"Польский",
+        "fr":"polonaise"
+    }',
+    '{
+        "639-1":"pl",
+        "639-2-T":"pol",
+        "639-2-B":"pol",
+        "639-3":"pol"
+    }',
+    45000000
+),
+(
+    126,
+    '{
+        "en":"Pashto",
+        "es":"Pashto",
+        "pt":"Pashto",
+        "de":"Paschtu",
+        "ru":"Пушту",
+        "fr":"Pashto"
+    }',
+    '{
+        "639-1":"ps",
+        "639-2-T":"pus",
+        "639-2-B":"pus",
+        "639-3":"pus + 3"
+    }',
+    60000000
+),
+(
+    127,
+    '{
+        "en":"Portuguese",
+        "es":"Portugués",
+        "pt":"Português",
+        "de":"Portugiesisch",
+        "ru":"португальский",
+        "fr":"Portugais"
+    }',
+    '{
+        "639-1":"pt",
+        "639-2-T":"por",
+        "639-2-B":"por",
+        "639-3":"por"
+    }',
+    274000000
+),
