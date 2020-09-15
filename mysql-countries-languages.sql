@@ -1199,3 +1199,129 @@ INSERT IGNORE INTO languages (
     }',
     56000000
 ),
+(
+    55,
+    '{
+        "en":"Haitian",
+        "es":"Haitiano",
+        "pt":"Haitiano",
+        "de":"haitianisch",
+        "ru":"Гаитянский",
+        "fr":"Haïtien"
+    }',
+    '{
+        "639-1":"ht",
+        "639-2-T":"hat",
+        "639-2-B":"hat",
+        "639-3":"hat"
+    }',
+    9600000
+),
+(
+    56,
+    '{
+        "en":"Hausa",
+        "es":"Hausa",
+        "pt":"Hausa",
+        "de":"Hausa",
+        "ru":"Хауса",
+        "fr":"Haoussa"
+    }',
+    '{
+        "639-1":"ha",
+        "639-2-T":"hau",
+        "639-2-B":"hau",
+        "639-3":"hau"
+    }',
+    100000000
+),
+(
+    57,
+    '{
+        "en":"Hebrew",
+        "es":"Hebreo",
+        "pt":"Hebraico",
+        "de":"hebräisch",
+        "ru":"иврит",
+        "fr":"Hébreu"
+    }',
+    '{
+        "639-1":"he",
+        "639-2-T":"heb",
+        "639-2-B":"heb",
+        "639-3":"heb"
+    }',
+    5000000
+),
+(
+    58,
+    '{
+        "en":"Herero",
+        "es":"Herero",
+        "pt":"Herero",
+        "de":"Herero",
+        "ru":"Гереро",
+        "fr":"Herero"
+    }',
+    '{
+        "639-1":"hz",
+        "639-2-T":"her",
+        "639-2-B":"her",
+        "639-3":"her"
+    }',
+    211700
+),
+(
+    59,
+    '{
+        "en":"Hindi",
+        "es":"Hindi",
+        "pt":"Hindi",
+        "de":"Hindi",
+        "ru":"хинди",
+        "fr":"Hindi"
+    }',
+    '{
+        "639-1":"hi",
+        "639-2-T":"hin",
+        "639-2-B":"hin",
+        "639-3":"hin"
+    }',
+    322000000
+),
+(
+    60,
+    '{
+        "en":"Hiri Motu",
+        "es":"Hiri Motu",
+        "pt":"Hiri Motu",
+        "de":"Hiri Motu",
+        "ru":"Хири Моту",
+        "fr":"Hiri Motu"
+    }',
+    '{
+        "639-1":"ho",
+        "639-2-T":"hmo",
+        "639-2-B":"hmo",
+        "639-3":"hmo"
+    }',
+    6000000
+),
+(
+    61,
+    '{
+        "en":"Hungarian",
+        "es":"Húngaro",
+        "pt":"Húngaro",
+        "de":"ungarisch",
+        "ru":"венгерский язык",
+        "fr":"Hongrois"
+    }',
+    '{
+        "639-1":"hu",
+        "639-2-T":"hun",
+        "639-2-B":"hun",
+        "639-3":"hun"
+    }',
+    13000000
+),
