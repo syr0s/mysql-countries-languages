@@ -1524,3 +1524,256 @@ INSERT IGNORE INTO languages (
     }',
     82000000
 ),
+(
+    73,
+    /* also known as Kalaallisut */
+    '{
+        "en":"Greenlandic",
+        "es":"Groenlandés",
+        "pt":"Groenlandês",
+        "de":"Grönländisch",
+        "ru":"Гренландский",
+        "fr":"groenlandais"
+    }',
+    '{
+        "639-1":"kl",
+        "639-2-T":"kal",
+        "639-2-B":"kal",
+        "639-3":"kal"
+    }',
+    57000
+),
+(
+    74,
+    '{
+        "en":"Kannada",
+        "es":"Canarés",
+        "pt":"Canarim",
+        "de":"Kannada",
+        "ru":"Каннада",
+        "fr":"Kannada"
+    }',
+    '{
+        "639-1":"kn",
+        "639-2-T":"kan",
+        "639-2-B":"kan",
+        "639-3":"kan"
+    }',
+    52000000
+),
+(
+    75,
+    '{
+        "en":"Kanuri",
+        "es":"Kanuri",
+        "pt":"Kanuri",
+        "de":"Kanuri",
+        "ru":"Канури",
+        "fr":"Kanuri"
+    }',
+    '{
+        "639-1":"kr",
+        "639-2-T":"kau",
+        "639-2-B":"kau",
+        "639-3":"kau + 3"
+    }',
+    8600000
+),
+(
+    76,
+    '{
+        "en":"Kashmiri",
+        "es":"Cachemira",
+        "pt":"Caxemira",
+        "de":"Kashmiri",
+        "ru":"Кашмири",
+        "fr":"Cachemire"
+    }',
+    '{
+        "639-1":"ks",
+        "639-2-T":"kas",
+        "639-2-B":"kas",
+        "639-3":"kas"
+    }',
+    7000000
+),
+(
+    77,
+    '{
+        "en":"Kazakh",
+        "es":"Kazajo",
+        "pt":"Cazaque",
+        "de":"Kasachisch",
+        "ru":"Казахский",
+        "fr":"Kazakh"
+    }',
+    '{
+        "639-1":"kk",
+        "639-2-T":"kaz",
+        "639-2-B":"kaz",
+        "639-3":"kaz"
+    }',
+    22000000
+),
+(
+    78,
+    '{
+        "en":"Khmer",
+        "es":"Jemer",
+        "pt":"Khmer",
+        "de":"Khmer",
+        "ru":"Кхмерский",
+        "fr":"Khmer"
+    }',
+    '{
+        "639-1":"km",
+        "639-2-T":"khm",
+        "639-2-B":"khm",
+        "639-3":"khm"
+    }',
+    16000000
+),
+(
+    79,
+    '{
+        "en":"Kikuyu",
+        "es":"Kikuyu",
+        "pt":"Kikuyu",
+        "de":"Kikuyu",
+        "ru":"Кикую",
+        "fr":"Kikuyu"
+    }',
+    '{
+        "639-1":"ki",
+        "639-2-T":"kik",
+        "639-2-B":"kik",
+        "639-3":"kik"
+    }',
+    6600000
+),
+(
+    80,
+    '{
+        "en":"Kinyarwanda",
+        "es":"Kinyarwanda",
+        "pt":"Kinyarwanda",
+        "de":"Kinyarwanda",
+        "ru":"Киньяруанда",
+        "fr":"Kinyarwanda"
+    }',
+    '{
+        "639-1":"rw",
+        "639-2-T":"kin",
+        "639-2-B":"kin",
+        "639-3":"kin"
+    }',
+    9800000
+),
+(
+    81,
+    '{
+        "en":"Kyrgyz",
+        "es":"Kirguís",
+        "pt":"Quirguiz",
+        "de":"Kirgisisch",
+        "ru":"Кыргызский",
+        "fr":"Kirghiz"
+    }',
+    '{
+        "639-1":"ky",
+        "639-2-T":"kir",
+        "639-2-B":"kir",
+        "639-3":"kir"
+    }',
+    4300000
+),
+(
+    82,
+    '{
+        "en":"Komi",
+        "es":"Komi",
+        "pt":"Komi",
+        "de":"Komi",
+        "ru":"Коми",
+        "fr":"Komi"
+    }',
+    '{
+        "639-1":"kv",
+        "639-2-T":"kom",
+        "639-2-B":"kom",
+        "639-3":"kom + 2"
+    }',
+    160000
+),
+(
+    83,
+    '{
+        "en":"Kongo",
+        "es":"Kongo",
+        "pt":"Kongo",
+        "de":"Kongo",
+        "ru":"Конго",
+        "fr":"Kongo"
+    }',
+    '{
+        "639-1":"kg",
+        "639-2-T":"kon",
+        "639-2-B":"kon",
+        "639-3":"kon + 3"
+    }',
+    6500000
+),
+(
+    84,
+    '{
+        "en":"Korean",
+        "es":"Coreano",
+        "pt":"Coreano",
+        "de":"Koreanisch",
+        "ru":"корейский язык",
+        "fr":"coréen"
+    }',
+    '{
+        "639-1":"ko",
+        "639-2-T":"kor",
+        "639-2-B":"kor",
+        "639-3":"kor"
+    }',
+    77200000
+),
+(
+    85,
+    '{
+        "en":"Kurdish",
+        "es":"Kurdo",
+        "pt":"curdo",
+        "de":"kurdisch",
+        "ru":"Курдский",
+        "fr":"kurde"
+    }',
+    '{
+        "639-1":"ku",
+        "639-2-T":"kur",
+        "639-2-B":"kur",
+        "639-3":"kur + 3"
+    }',
+    30000000
+),
+(
+    86,
+    '{
+        "en":"Kuanyama",
+        "es":"Kuanyama",
+        "pt":"Kuanyama",
+        "de":"Kuanyama",
+        "ru":"Куаньяма",
+        "fr":"Kuanyama"
+    }',
+    '{
+        "639-1":"kj",
+        "639-2-T":"kua",
+        "639-2-B":"kua",
+        "639-3":"kua"
+    }',
+    690000
+),
