@@ -2263,3 +2263,39 @@ INSERT IGNORE INTO languages (
     }',
     5320000
 ),
+(
+    114,
+    '{
+        "en":"Sichuan Yi",
+        "es":"Sichuan Yi",
+        "pt":"Sichuan Yi",
+        "de":"Sichuan Yi",
+        "ru":"Сычуань Йи",
+        "fr":"Sichuan Yi"
+    }',
+    '{
+        "639-1":"ii",
+        "639-2-T":"iii",
+        "639-2-B":"iii",
+        "639-3":"iii"
+    }',
+    2000000
+),
+(
+    115,
+    '{
+        "en":"Ndebele",
+        "es":"Ndebele",
+        "pt":"Ndebele",
+        "de":"Ndebele",
+        "ru":"Ндебеле",
+        "fr":"Ndebele"
+    }',
+    '{
+        "639-1":"nr",
+        "639-2-T":"nbl",
+        "639-2-B":"nbl",
+        "639-3":"nbl"
+    }',
+    1100000
+),
