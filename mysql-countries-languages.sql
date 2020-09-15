@@ -254,13 +254,12 @@ INSERT IGNORE INTO `languages` (
 ),
 (
     2,
-    /* TODO: translation */
     '{
         "en":"Afar",
-        "es":"Afar",
-        "pt":"Afar",
+        "es":"afar",
+        "pt":"afar",
         "de":"Afar",
-        "ru":"Afar",
+        "ru":"Афарский язык",
         "fr":"Afar"
     }',
      '{
