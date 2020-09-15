@@ -35,7 +35,7 @@ The countries table has the following design
 | latitude | FLOAT | NN | The latitude of the country |
 | longitude | FLOAT | NN | The longitude of the country |
 | residents | INT | UN | The residents of the country (can be null, if no data is available) |
-| area | INT | NN | Area of the country in square kilometers |
+| area | INT | NN, UN | Area of the country in square kilometers |
 
 ***Design of the default json array 
 (if not defined otherwise below):***
@@ -118,7 +118,7 @@ The states table has the following design
 |  --------------  | -------------- | -------------- | -------------- |
 | state_id | SMALLINT | NN, UQ, UN, PK | Primary key of the table. Didn't use auto increment to verify integrity |
 | country_id | SMALLINT | NN, UN | Foreign key to table countries |
-| state_name | JSON | NN | the language name in different languages |
+| state_name | JSON | NN | the state name in different languages |
 | state_capital | JSON | | the states capital city as json array |
 | residents | INT | UN | Residents in this state |
 | area | INT | UN | area in square kilometers |
