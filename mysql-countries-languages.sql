@@ -1937,5 +1937,185 @@ INSERT IGNORE INTO languages (
         "639-2-B":"lav",
         "639-3":"lav + 2"
     }',
-    6000000
+    1750000
+),
+(
+    96,
+    '{
+        "en":"Manx",
+        "es":"lengua de la isla de Man",
+        "pt":"Manx",
+        "de":"Manx",
+        "ru":"Манкс",
+        "fr":"Manx"
+    }',
+    '{
+        "639-1":"gv",
+        "639-2-T":"glv",
+        "639-2-B":"glv",
+        "639-3":"glv"
+    }',
+    1800
+),
+(
+    97,
+    '{
+        "en":"Macedonian",
+        "es":"macedónio",
+        "pt":"Macedônio",
+        "de":"mazedonisch",
+        "ru":"македонский",
+        "fr":"Macédonien"
+    }',
+    '{
+        "639-1":"mk",
+        "639-2-T":"mkd",
+        "639-2-B":"mac",
+        "639-3":"mkd"
+    }',
+    3500000
+),
+(
+    98,
+    '{
+        "en":"Malagasy",
+        "es":"madagascarí",
+        "pt":"malgaxe",
+        "de":"Madagassisch",
+        "ru":"Малагасийский",
+        "fr":"malgache"
+    }',
+    '{
+        "639-1":"mg",
+        "639-2-T":"mlg",
+        "639-2-B":"mlg",
+        "639-3":"mlg + 11"
+    }',
+    25000000
+),
+(
+    99,
+    '{
+        "en":"Malay",
+        "es":"Malayo",
+        "pt":"Malaio",
+        "de":"malaiisch",
+        "ru":"малайский",
+        "fr":"Malais"
+    }',
+    '{
+        "639-1":"ms",
+        "639-2-T":"msa",
+        "639-2-B":"mya",
+        "639-3":"msa + 36"
+    }',
+    250000000
+),
+(
+    100,
+    '{
+        "en":"Malayalam",
+        "es":"Malayalam",
+        "pt":"Malayalam",
+        "de":"Malayalam",
+        "ru":"Малаялам",
+        "fr":"Malayalam"
+    }',
+    '{
+        "639-1":"ml",
+        "639-2-T":"mal",
+        "639-2-B":"mal",
+        "639-3":"mal"
+    }',
+    45000000
+),
+(
+    101,
+    '{
+        "en":"Maltese",
+        "es":"Maltés",
+        "pt":"Maltês",
+        "de":"maltesisch",
+        "ru":"Мальтийский",
+        "fr":"maltais"
+    }',
+    '{
+        "639-1":"mt",
+        "639-2-T":"mlt",
+        "639-2-B":"mlt",
+        "639-3":"mlt"
+    }',
+    520000
+),
+(
+    102,
+    '{
+        "en":"Maori",
+        "es":"maorí",
+        "pt":"maori",
+        "de":"Maori",
+        "ru":"маори",
+        "fr":"Maori"
+    }',
+    '{
+        "639-1":"mi",
+        "639-2-T":"mri",
+        "639-2-B":"mao",
+        "639-3":"mri"
+    }',
+    50000
+),
+(
+    103,
+    '{
+        "en":"Marathi",
+        "es":"Marathi",
+        "pt":"Marati",
+        "de":"Marathi",
+        "ru":"Маратхи",
+        "fr":"Marathi"
+    }',
+    '{
+        "639-1":"mr",
+        "639-2-T":"mar",
+        "639-2-B":"mar",
+        "639-3":"mar"
+    }',
+    83000000
+),
+(
+    104,
+    '{
+        "en":"Marshallese",
+        "es":"Marshalés",
+        "pt":"Marshallês",
+        "de":"Marshallese",
+        "ru":"Маршалльский",
+        "fr":"Marshallese"
+    }',
+    '{
+        "639-1":"mh",
+        "639-2-T":"mah",
+        "639-2-B":"mah",
+        "639-3":"mah"
+    }',
+    55000
+),
+(
+    105,
+    '{
+        "en":"Mongolian",
+        "es":"Mongol",
+        "pt":"mongol",
+        "de":"mongolisch",
+        "ru":"Монгольский",
+        "fr":"Mongol"
+    }',
+    '{
+        "639-1":"mn",
+        "639-2-T":"mon",
+        "639-2-B":"mon",
+        "639-3":"mon + 2"
+    }',
+    5200000
 ),
