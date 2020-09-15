@@ -3343,3 +3343,75 @@ INSERT IGNORE INTO languages (
     }',
     20
 ),
+(
+    174,
+    '{
+        "en":"Walloon",
+        "es":"Valonia",
+        "pt":"valão",
+        "de":"wallonisch",
+        "ru":"валлонский",
+        "fr":"Wallon"
+    }',
+    '{
+        "639-1":"wa",
+        "639-2-T":"wln",
+        "639-2-B":"wln",
+        "639-3":"wln"
+    }',
+    600000
+),
+(
+    175,
+    '{
+        "en":"Welsh",
+        "es":"Galés",
+        "pt":"galês",
+        "de":"Walisisch",
+        "ru":"валлийский",
+        "fr":"gallois"
+    }',
+    '{
+        "639-1":"cy",
+        "639-2-T":"cym",
+        "639-2-B":"wel",
+        "639-3":"cym"
+    }',
+    1000000
+),
+(
+    176,
+    '{
+        "en":"Wolof",
+        "es":"Wolof",
+        "pt":"Wolof",
+        "de":"Wolof",
+        "ru":"Волоф",
+        "fr":"Wolof"
+    }',
+    '{
+        "639-1":"wo",
+        "639-2-T":"wol",
+        "639-2-B":"wol",
+        "639-3":"wol"
+    }',
+    5454000
+),
+(
+    177,
+    '{
+        "en":"Western Frisian",
+        "es":"Frisón occidental",
+        "pt":"Frísio Ocidental",
+        "de":"Westfriesisch",
+        "ru":"Западно-фризский",
+        "fr":"Frison occidental"
+    }',
+    '{
+        "639-1":"fy",
+        "639-2-T":"fry",
+        "639-2-B":"fry",
+        "639-3":"fry"
+    }',
+    470000
+),
