@@ -1325,3 +1325,166 @@ INSERT IGNORE INTO languages (
     }',
     13000000
 ),
+(
+    62,
+    '{
+        "en":"Indonesian",
+        "es":"Indonesio",
+        "pt":"Indonésio",
+        "de":"Indonesisch",
+        "ru":"индонезийский",
+        "fr":"Indonésien"
+    }',
+    '{
+        "639-1":"id",
+        "639-2-T":"ind",
+        "639-2-B":"ind",
+        "639-3":"ind"
+    }',
+    43000000
+),
+(
+    63,
+    '{
+        "en":"Interlingua",
+        "es":"Interlingua",
+        "pt":"Interlíngua",
+        "de":"Interlingua",
+        "ru":"Интерлингва",
+        "fr":"Interlingua"
+    }',
+    '{
+        "639-1":"ia",
+        "639-2-T":"ina",
+        "639-2-B":"ina",
+        "639-3":"ina"
+    }',
+    1500
+),
+(
+    64,
+    '{
+        "en":"Irish",
+        "es":"Irlandés",
+        "pt":"Irlandês",
+        "de":"irisch",
+        "ru":"Ирландский",
+        "fr":"Irlandais"
+    }',
+    '{
+        "639-1":"ga",
+        "639-2-T":"gle",
+        "639-2-B":"gle",
+        "639-3":"gle"
+    }',
+    170290
+),
+(
+    65,
+    '{
+        "en":"Igbo",
+        "es":"Igbo",
+        "pt":"Igbo",
+        "de":"Igbo",
+        "ru":"Игбо",
+        "fr":"Igbo"
+    }',
+    '{
+        "639-1":"ig",
+        "639-2-T":"ibo",
+        "639-2-B":"ibo",
+        "639-3":"ibo"
+    }',
+    35000000
+),
+(
+    66,
+    '{
+        "en":"Inupiaq",
+        "es":"Inupiaq",
+        "pt":"Inupiaq",
+        "de":"Inupiaq",
+        "ru":"Инупиак",
+        "fr":"Inupiaq"
+    }',
+    '{
+        "639-1":"ik",
+        "639-2-T":"ipk",
+        "639-2-B":"ipk",
+        "639-3":"ipk + 2"
+    }',
+    2144
+),
+(
+    67,
+    /* TODO: translation */
+    '{
+        "en":"Ido",
+        "es":"Ido",
+        "pt":"Ido",
+        "de":"Ido",
+        "ru":"Ido",
+        "fr":"Ido"
+    }',
+    '{
+        "639-1":"io",
+        "639-2-T":"ido",
+        "639-2-B":"ido",
+        "639-3":"ido"
+    }',
+    200
+),
+(
+    68,
+    '{
+        "en":"Icelandic",
+        "es":"Islandés",
+        "pt":"islandês",
+        "de":"isländisch",
+        "ru":"исландский",
+        "fr":"islandais"
+    }',
+    '{
+        "639-1":"is",
+        "639-2-T":"isl",
+        "639-2-B":"ice",
+        "639-3":"isl"
+    }',
+    314000
+),
+(
+    69,
+    '{
+        "en":"Italian",
+        "es":"Italiano",
+        "pt":"Italiano",
+        "de":"italienisch",
+        "ru":"Итальянский",
+        "fr":"Italien"
+    }',
+    '{
+        "639-1":"it",
+        "639-2-T":"ita",
+        "639-2-B":"ita",
+        "639-3":"ita"
+    }',
+    67000000
+),
+(
+    70,
+    '{
+        "en":"Inuktitut",
+        "es":"Inuktitut",
+        "pt":"Inuktitut",
+        "de":"Inuktitut",
+        "ru":"Инуктитут",
+        "fr":"Inuktitut"
+    }',
+    '{
+        "639-1":"iu",
+        "639-2-T":"iku",
+        "639-2-B":"iku",
+        "639-3":"iku + 2"
+    }',
+    35215
+),
