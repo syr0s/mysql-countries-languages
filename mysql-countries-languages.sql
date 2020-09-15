@@ -1777,3 +1777,165 @@ INSERT IGNORE INTO languages (
     }',
     690000
 ),
+(
+    87,
+    '{
+        "en":"Latin",
+        "es":"Latino",
+        "pt":"Latino",
+        "de":"Latein",
+        "ru":"латинский",
+        "fr":"Latin"
+    }',
+    '{
+        "639-1":"la",
+        "639-2-T":"lat",
+        "639-2-B":"lat",
+        "639-3":"lat"
+    }',
+    null
+),
+(
+    88,
+    '{
+        "en":"Luxembourgish",
+        "es":"Luxemburgués",
+        "pt":"Luxemburguês",
+        "de":"Luxemburgisch",
+        "ru":"Люксембургский",
+        "fr":"Luxembourgeois"
+    }',
+    '{
+        "639-1":"lb",
+        "639-2-T":"ltz",
+        "639-2-B":"ltz",
+        "639-3":"ltz"
+    }',
+    390000
+),
+(
+    89,
+    '{
+        "en":"Ganda",
+        "es":"Ganda",
+        "pt":"Ganda",
+        "de":"Ganda",
+        "ru":"Ганда",
+        "fr":"Ganda"
+    }',
+    '{
+        "639-1":"lg",
+        "639-2-T":"lug",
+        "639-2-B":"lug",
+        "639-3":"lug"
+    }',
+    8500000
+),
+(
+    90,
+    '{
+        "en":"Limburgish",
+        "es":"Limburgués",
+        "pt":"Limburguês",
+        "de":"Limburgisch",
+        "ru":"Лимбургский",
+        "fr":"Limbourgeois"
+    }',
+    '{
+        "639-1":"li",
+        "639-2-T":"lim",
+        "639-2-B":"lim",
+        "639-3":"lim"
+    }',
+    1300000
+),
+(
+    91,
+    '{
+        "en":"Lingala",
+        "es":"Lingala",
+        "pt":"Lingala",
+        "de":"Lingala",
+        "ru":"Лингала",
+        "fr":"Lingala"
+    }',
+    '{
+        "639-1":"ln",
+        "639-2-T":"lin",
+        "639-2-B":"lin",
+        "639-3":"lin"
+    }',
+    15000000
+),
+(
+    92,
+    '{
+        "en":"Lao",
+        "es":"Lao",
+        "pt":"Lao",
+        "de":"Lao",
+        "ru":"Лаосский",
+        "fr":"Laotien"
+    }',
+    '{
+        "639-1":"lo",
+        "639-2-T":"lao",
+        "639-2-B":"lao",
+        "639-3":"lao"
+    }',
+    30000000
+),
+(
+    93,
+    '{
+        "en":"Lithuanian",
+        "es":"Lituano",
+        "pt":"Lituano",
+        "de":"litauisch",
+        "ru":"Литовский",
+        "fr":"Lituanien"
+    }',
+    '{
+        "639-1":"lt",
+        "639-2-T":"lit",
+        "639-2-B":"lit",
+        "639-3":"lit"
+    }',
+    3000000
+),
+(
+    94,
+    '{
+        "en":"Luba-Katanga",
+        "es":"Luba-Katanga",
+        "pt":"Luba-Katanga",
+        "de":"Luba-Katanga",
+        "ru":"Люба-Катанга",
+        "fr":"Luba-Katanga"
+    }',
+    '{
+        "639-1":"lu",
+        "639-2-T":"lub",
+        "639-2-B":"lub",
+        "639-3":"lub"
+    }',
+    1505000
+),
+(
+    95,
+    '{
+        "en":"Latvian",
+        "es":"Letón",
+        "pt":"Letão",
+        "de":"lettisch",
+        "ru":"Латышский",
+        "fr":"letton"
+    }',
+    '{
+        "639-1":"lv",
+        "639-2-T":"lav",
+        "639-2-B":"lav",
+        "639-3":"lav + 2"
+    }',
+    6000000
+),
