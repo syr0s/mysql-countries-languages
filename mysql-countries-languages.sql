@@ -2119,3 +2119,147 @@ INSERT IGNORE INTO languages (
     }',
     5200000
 ),
+(
+    106,
+    '{
+        "en":"Nauru",
+        "es":"Nauru",
+        "pt":"Nauru",
+        "de":"Nauru",
+        "ru":"Науру",
+        "fr":"Nauru"
+    }',
+    '{
+        "639-1":"na",
+        "639-2-T":"nau",
+        "639-2-B":"nau",
+        "639-3":"nau"
+    }',
+    6000
+),
+(
+    107,
+    '{
+        "en":"Navajo",
+        "es":"Navajo",
+        "pt":"Navajo",
+        "de":"Navajo",
+        "ru":"Навахо",
+        "fr":"Navajo"
+    }',
+    '{
+        "639-1":"nv",
+        "639-2-T":"nav",
+        "639-2-B":"nav",
+        "639-3":"nav"
+    }',
+    169359
+),
+(
+    108,
+    '{
+        "en":"Ndebele",
+        "es":"Ndebele",
+        "pt":"Ndebele",
+        "de":"Ndebele",
+        "ru":"Ндебеле",
+        "fr":"Ndebele"
+    }',
+    '{
+        "639-1":"nd",
+        "639-2-T":"nde",
+        "639-2-B":"nde",
+        "639-3":"nde"
+    }',
+    1600000
+),
+(
+    109,
+    '{
+        "en":"Nepali",
+        "es":"Nepalí",
+        "pt":"Nepalês",
+        "de":"Nepali",
+        "ru":"Непальский",
+        "fr":"Népalais"
+    }',
+    '{
+        "639-1":"ne",
+        "639-2-T":"nep",
+        "639-2-B":"nep",
+        "639-3":"nep + 2"
+    }',
+    16000000
+),
+(
+    110,
+    '{
+        "en":"Ndonga",
+        "es":"Ndonga",
+        "pt":"Ndonga",
+        "de":"Ndonga",
+        "ru":"Ндонга",
+        "fr":"Ndonga"
+    }',
+    '{
+        "639-1":"ng",
+        "639-2-T":"ndo",
+        "639-2-B":"ndo",
+        "639-3":"ndo"
+    }',
+    810000
+),
+(
+    111,
+    '{
+        "en":"Norwegian Bokmål",
+        "es":"Noruego bokmål",
+        "pt":"Bokmål norueguês",
+        "de":"Norwegischer Bokmål",
+        "ru":"Норвежский букмол",
+        "fr":"Norvégien bokmål"
+    }',
+    '{
+        "639-1":"nb",
+        "639-2-T":"nob",
+        "639-2-B":"nob",
+        "639-3":"nob"
+    }',
+    null
+),
+(
+    112,
+    '{
+        "en":"Norwegian Nynorsk",
+        "es":"Noruego Nynorsk",
+        "pt":"Nynorsk norueguês",
+        "de":"Norwegischer Nynorsk",
+        "ru":"Норвежский нюнорск",
+        "fr":"Norvégien nynorsk"
+    }',
+    '{
+        "639-1":"nn",
+        "639-2-T":"nno",
+        "639-2-B":"nno",
+        "639-3":"nno"
+    }',
+    null
+),
+(
+    113,
+    '{
+        "en":"Norwegian",
+        "es":"Noruego",
+        "pt":"Norueguês",
+        "de":"norwegisch",
+        "ru":"Норвежский",
+        "fr":"Norvégien"
+    }',
+    '{
+        "639-1":"no",
+        "639-2-T":"nor",
+        "639-2-B":"nor",
+        "639-3":"nor + 2"
+    }',
+    5320000
+),
