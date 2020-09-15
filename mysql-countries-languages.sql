@@ -2515,3 +2515,21 @@ INSERT IGNORE INTO languages (
     }',
     274000000
 ),
+(
+    128,
+    '{
+        "en":"Quechua",
+        "es":"quechua",
+        "pt":"Quechua",
+        "de":"Quechua",
+        "ru":"кечуа",
+        "fr":"Quechua"
+    }',
+    '{
+        "639-1":"qu",
+        "639-2-T":"que",
+        "639-2-B":"que",
+        "639-3":"que + 43"
+    }',
+    10000000
+),
