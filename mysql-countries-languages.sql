@@ -2533,3 +2533,75 @@ INSERT IGNORE INTO languages (
     }',
     10000000
 ),
+(
+    129,
+    '{
+        "en":"Romansh",
+        "es":"Romansh",
+        "pt":"Romansh",
+        "de":"Rätoromanisch",
+        "ru":"Ретороманский",
+        "fr":"Romanche"
+    }',
+    '{
+        "639-1":"rm",
+        "639-2-T":"roh",
+        "639-2-B":"roh",
+        "639-3":"roh"
+    }',
+    60000
+),
+(
+    130,
+    '{
+        "en":"Rundi",
+        "es":"Rundi",
+        "pt":"Rundi",
+        "de":"Rundi",
+        "ru":"Рунди",
+        "fr":"Rundi"
+    }',
+    '{
+        "639-1":"rn",
+        "639-2-T":"run",
+        "639-2-B":"run",
+        "639-3":"run"
+    }',
+    8800000
+),
+(
+    131,
+    '{
+        "en":"Romanian",
+        "es":"Rumano",
+        "pt":"Romeno",
+        "de":"rumänisch",
+        "ru":"румынский",
+        "fr":"Roumain"
+    }',
+    '{
+        "639-1":"ro",
+        "639-2-T":"ron",
+        "639-2-B":"rum",
+        "639-3":"ron"
+    }',
+    26000000
+),
+(
+    132,
+    '{
+        "en":"Russian",
+        "es":"Ruso",
+        "pt":"Russo",
+        "de":"Russisch",
+        "ru":"русский",
+        "fr":"russe"
+    }',
+    '{
+        "639-1":"ru",
+        "639-2-T":"rus",
+        "639-2-B":"rus",
+        "639-3":"rus"
+    }',
+    150000000
+),
