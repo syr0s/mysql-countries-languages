@@ -20,7 +20,7 @@ The project contains the following related tables:
 - and `languages`
 
 ## Table layout
-![alt text](https://github.com/syr0s/mysql-countries-languages/tree/languages/img/table_layout.jpg?raw=true)
+![table_layout](https://user-images.githubusercontent.com/45044563/93175106-664bf900-f72f-11ea-9d8d-b15e908d6ff1.jpg)
 
 ### Table: `countries`
 The countries table has the following design
