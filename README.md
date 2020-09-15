@@ -93,7 +93,8 @@ The countries table has the following design
          "Per-capita":"value"
       },
       "Gini":"value",
-      "HDI":"value"
+      "HDI":"value",
+      "GCR":"value"
    }
 }
 ```
