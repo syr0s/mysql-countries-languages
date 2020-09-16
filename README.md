@@ -84,8 +84,9 @@ The languages table has the following design
 | language_name | JSON | NN | the language name in different languages |
 | language_codes | JSON | NN | The different language codes |
 | speakers | INT | UN | worldwide speakers of the language |
+| continents | JSON | NN | Continents the language is spoken |
 
-***Design of the default json array 
+***Design of the default json object 
 (if not defined otherwise below):***
 ```
 {
@@ -94,13 +95,20 @@ The languages table has the following design
 }
 ```
 
-***Design of the language codes array:***
+***Design of the language codes object:***
 ```
 {
     "639-1":"ISO 639-1 code",
     "639-2-T":"ISO 639-2/T code",
     "639-2-B":"ISO 639-2/B code",
     "639-3":"ISO 639-3 code"
+}
+```
+
+***Design of the nested continents object / array:***
+```
+{
+    "continent_id": [id1, id2, ... ]
 }
 ```
 
