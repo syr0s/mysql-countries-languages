@@ -776,7 +776,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"cat",
         "639-3":"cat"
     }',
-    4100000
+    4100000,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     27,
@@ -794,7 +797,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"cha",
         "639-3":"cha"
     }',
-    58000
+    58000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     28,
@@ -812,7 +818,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"che",
         "639-3":"che"
     }',
-    1400000
+    1400000,
+    '{
+        "continent_id": [2, 3]
+    }'
 ),
 (
     29,
@@ -830,7 +839,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"nya",
         "639-3":"nya"
     }',
-    12000000
+    12000000,
+    '{
+        "continent_id": [1]
+    }'
 ),
 (
     30,
@@ -848,7 +860,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"chi",
         "639-3":"zho + 16"
     }',
-    1200000000
+    1200000000,
+    '{
+        "continent_id": [2, 3, 4]
+    }'
 ),
 (
     31,
@@ -866,7 +881,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"chv",
         "639-3":"chv"
     }',
-    1042989
+    1042989,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     32,
@@ -884,7 +902,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"cor",
         "639-3":"cor"
     }',
-    500
+    500,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     33,
@@ -902,7 +923,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"cos",
         "639-3":"cos"
     }',
-    125000
+    125000,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     34,
@@ -920,7 +944,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"cre",
         "639-3":"cre + 6"
     }',
-    96260
+    96260,
+    '{
+        "continent_id": [4]
+    }'
 ),
 (
     35,
@@ -938,7 +965,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"hrv",
         "639-3":"hrv"
     }',
-    5600000
+    5600000,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     36,
@@ -956,7 +986,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"cze",
         "639-3":"ces"
     }',
-    10700000
+    10700000,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     37,
