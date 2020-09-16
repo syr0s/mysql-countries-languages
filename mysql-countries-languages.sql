@@ -64,6 +64,7 @@ CREATE TABLE IF NOT EXISTS `languages` (
    `language_name` JSON NOT NULL COMMENT 'the language name in different languages',
    `language_codes` JSON NOT NULL COMMENT 'The different language codes',
    `speakers` BIGINT COMMENT 'worldwide speakers of the language',
+   `continents` JSON NOT NULL COMMENT 'Continents the language is spoken',
     PRIMARY KEY `Primary key`(
    `language_id`
     )
@@ -233,7 +234,7 @@ INSERT INTO `continents` (
 
 /* languages */
 INSERT IGNORE INTO `languages` (
-    `language_id`, `language_name`, `language_codes`, `speakers`
+    `language_id`, `language_name`, `language_codes`, `speakers`, `continents`
 ) VALUES (
     1,
     '{
