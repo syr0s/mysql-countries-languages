@@ -1638,7 +1638,9 @@ INSERT IGNORE INTO `languages` (
         "639-3":"ido"
     }',
     200,
-    null
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     68,
@@ -1719,7 +1721,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"jpn",
         "639-3":"jpn"
     }',
-    128000000
+    128000000,
+    '{
+        "continent_id": [2, 4]
+    }'
 ),
 (
     72,
@@ -1737,7 +1742,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"jav",
         "639-3":"jav"
     }',
-    82000000
+    82000000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     73,
@@ -1756,7 +1764,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"kal",
         "639-3":"kal"
     }',
-    57000
+    57000,
+    '{
+        "continent_id": [4]
+    }'
 ),
 (
     74,
@@ -1774,7 +1785,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"kan",
         "639-3":"kan"
     }',
-    52000000
+    52000000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     75,
@@ -1792,7 +1806,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"kau",
         "639-3":"kau + 3"
     }',
-    8600000
+    8600000,
+    '{
+        "continent_id": [1]
+    }'
 ),
 (
     76,
@@ -1810,7 +1827,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"kas",
         "639-3":"kas"
     }',
-    7000000
+    7000000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     77,
@@ -1828,7 +1848,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"kaz",
         "639-3":"kaz"
     }',
-    22000000
+    22000000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     78,
@@ -1846,7 +1869,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"khm",
         "639-3":"khm"
     }',
-    16000000
+    16000000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     79,
@@ -1864,7 +1890,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"kik",
         "639-3":"kik"
     }',
-    6600000
+    6600000,
+    '{
+        "continent_id": [1]
+    }'
 ),
 (
     80,
@@ -1882,7 +1911,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"kin",
         "639-3":"kin"
     }',
-    9800000
+    9800000,
+    '{
+        "continent_id": [1]
+    }'
 ),
 (
     81,
@@ -1900,7 +1932,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"kir",
         "639-3":"kir"
     }',
-    4300000
+    4300000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     82,
@@ -1918,7 +1953,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"kom",
         "639-3":"kom + 2"
     }',
-    160000
+    160000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     83,
@@ -1936,7 +1974,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"kon",
         "639-3":"kon + 3"
     }',
-    6500000
+    6500000,
+    '{
+        "continent_id": [1]
+    }'
 ),
 (
     84,
@@ -1954,7 +1995,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"kor",
         "639-3":"kor"
     }',
-    77200000
+    77200000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     85,
@@ -1972,7 +2016,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"kur",
         "639-3":"kur + 3"
     }',
-    30000000
+    30000000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     86,
@@ -1990,7 +2037,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"kua",
         "639-3":"kua"
     }',
-    690000
+    690000,
+    '{
+        "continent_id": [1]
+    }'
 ),
 (
     87,
@@ -2008,7 +2058,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"lat",
         "639-3":"lat"
     }',
-    null
+    null,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     88,
@@ -2026,7 +2079,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"ltz",
         "639-3":"ltz"
     }',
-    390000
+    390000,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     89,
@@ -2044,7 +2100,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"lug",
         "639-3":"lug"
     }',
-    8500000
+    8500000,
+    '{
+        "continent_id": [1]
+    }'
 ),
 (
     90,
@@ -2062,7 +2121,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"lim",
         "639-3":"lim"
     }',
-    1300000
+    1300000,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     91,
@@ -2080,7 +2142,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"lin",
         "639-3":"lin"
     }',
-    15000000
+    15000000,
+    '{
+        "continent_id": [1]
+    }'
 ),
 (
     92,
@@ -2098,7 +2163,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"lao",
         "639-3":"lao"
     }',
-    30000000
+    30000000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     93,
@@ -2116,7 +2184,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"lit",
         "639-3":"lit"
     }',
-    3000000
+    3000000,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     94,
@@ -2134,7 +2205,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"lub",
         "639-3":"lub"
     }',
-    1505000
+    1505000,
+    '{
+        "continent_id": [1]
+    }'
 ),
 (
     95,
@@ -2152,7 +2226,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"lav",
         "639-3":"lav + 2"
     }',
-    1750000
+    1750000,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     96,
