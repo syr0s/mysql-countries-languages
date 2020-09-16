@@ -545,7 +545,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"bam",
         "639-3":"bam"
     }',
-    4100000
+    4100000,
+    '{
+        "continent_id": [1]
+    }'
 ),
 (
     16,
@@ -563,7 +566,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"bak",
         "639-3":"bak"
     }',
-    1200000
+    1200000,
+    '{
+        "continent_id": [2, 3]
+    }'
 ),
 (
     17,
@@ -581,7 +587,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"baq",
         "639-3":"eus"
     }',
-    1185500
+    1185500,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     18,
@@ -599,7 +608,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"bel",
         "639-3":"bel"
     }',
-    5100000
+    5100000,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     19,
@@ -617,7 +629,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"ben",
         "639-3":"be"
     }',
-    230000000
+    230000000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     20,
@@ -635,7 +650,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"bih",
         "639-3":null
     }',
-    null
+    null,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     21,
@@ -653,7 +671,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"bis",
         "639-3":"bis"
     }',
-    200000
+    200000,
+    '{
+        "continent_id": [6]
+    }'
 ),
 (
     22,
@@ -671,7 +692,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"bos",
         "639-3":"bos"
     }',
-    3000000
+    3000000,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     23,
@@ -689,7 +713,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"bre",
         "639-3":"bre"
     }',
-    226000
+    226000,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     24,
@@ -707,7 +734,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"bul",
         "639-3":"bul"
     }',
-    9000000
+    9000000,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     25,
@@ -725,7 +755,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"bur",
         "639-3":"mya"
     }',
-    33000000
+    33000000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     26,
