@@ -1007,7 +1007,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"dan",
         "639-3":"dan"
     }',
-    6000000
+    6000000,
+    '{
+        "continent_id": [3]
+    }'
 ),
 (
     38,
@@ -1025,7 +1028,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"dut",
         "639-3":"nld"
     }',
-    29000000
+    29000000,
+    '{
+        "continent_id": [3, 5]
+    }'
 ),
 (
     39,
@@ -1043,7 +1049,10 @@ INSERT IGNORE INTO `languages` (
         "639-2-B":"dzo",
         "639-3":"dzo"
     }',
-    640000
+    640000,
+    '{
+        "continent_id": [2]
+    }'
 ),
 (
     40,
