@@ -13,3 +13,6 @@ pages:
 - https://de.m.wikipedia.org/wiki/S%C3%BCdamerika
 - https://de.m.wikipedia.org/wiki/Ozeanien
 - https://de.m.wikipedia.org/wiki/Antarktika
+
+**Countries**
+- https://simple.wikipedia.org/wiki/List_of_countries

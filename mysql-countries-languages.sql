@@ -31,6 +31,7 @@
 * insert values
 *    continents (7 records)
 *    languages (182 records)
+*    countries
 **/
 
 /* table creation */
@@ -3511,3 +3512,45 @@ INSERT IGNORE INTO `languages` (
     }',
     12000000
 );
+
+/* countries */
+INSERT IGNORE INTO `countries` (
+    `country_id`, `country_name`, `capital_city`, `official_name`, `official_language`, `other_language`,
+    `continent`, `country_codes`, `currency`, `latitude`, `longitude`, `residents`, `area`
+) VALUES (
+    1,
+    '{
+       "en":"Afghanistan",
+       "es":"Afganistán",
+       "pt":"Afeganistão",
+       "de":"Afghanistan",
+       "ru":"Афганистан",
+       "fr":"Afghanistan"
+    }',
+    '{
+        "en":"Kabul",
+        "es":"Kabul",
+        "pt":"Cabul",
+        "de":"Kabul",
+        "ru":"Кабул",
+        "fr":"Kaboul"
+    }',
+    '{
+        "en":"Islamic Republic of Afghanistan",
+        "es":"República Islámica de Afganistán",
+        "pt":"República Islâmica do Afeganistão",
+        "de":"Islamische Republik Afghanistan",
+        "ru":"Исламская Республика Афганистан",
+        "fr":"République islamique d\'Afghanistan"
+    }',
+    126,
+    null,
+    2,
+    '{
+        "tld":"country code top-level domain",
+        "cca2":"code ISO 3166-1 alpha-2",
+        "ccn3":"code ISO 3166-1 numeric",
+        "cca3":"code ISO 3166-1 alpha-3",
+        "call":"calling code"
+    }'   
+)
